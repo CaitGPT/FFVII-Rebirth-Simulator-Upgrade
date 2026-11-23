@@ -133,6 +133,23 @@ Restart the game after editing.
   update the mod.
 - Don't use UE4SS hot reload (Ctrl+R): it crashes this game.
 
+## Requests and bug reports
+
+We take feature requests for this mod and ideas for new Rebirth mods: open an
+[issue](https://github.com/CaitGPT/FFVII-Rebirth-Simulator-Upgrade/issues), or post on the
+[Nexus page](https://www.nexusmods.com/finalfantasy7rebirth/mods/2548?tab=posts).
+
+If something goes wrong, tell us what you did and what happened, and send these files. Copy them before you start the
+game again: the game replaces them at start-up.
+
+- `UE4SS.log`, from `End\Binaries\Win64\ue4ss\` in your game folder.
+- The `.txt` files in `End\Binaries\Win64\ue4ss\Mods\SimulatorUpgrade\`: `settings.txt`, and the stage helper's
+  `stages-helper.txt` and `stages-helper-trace.txt` if a stage didn't load.
+- Your `End\Binaries\Win64\ue4ss\Mods\mods.txt`, and a list of the other mods you have installed, paks included.
+- If the game crashed: the newest folder in `Documents\My Games\FINAL FANTASY VII REBIRTH\Saved\Crashes\`.
+
+And tell us your store (Steam or Epic), and whether you play on Linux or Steam Deck (Proton).
+
 ## Build from source
 
 This repository contains no game files.
