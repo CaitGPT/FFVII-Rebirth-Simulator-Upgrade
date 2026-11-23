@@ -1,0 +1,17 @@
+# Meters panel (Custom Training). Restart the game after editing.
+# Where the panel sits, in 1920x1080 units from the top left. Leave unset to have it placed for you (beside an older
+# Battle Meters' panel when that is installed).
+# meters_x = 48
+# meters_y = 48
+# Shown or hidden; the show/hide key changes this.
+meters_visible = on
+# Keys: next meter, clear the meters, reset stagger, show or hide the panel.
+meters_next_key = F9
+meters_clear_key = F5
+meters_stagger_key = F6
+meters_toggle_key = F8
+# Seconds for the "Last 5 seconds" line, and how long the last numbers stay after a course.
+meters_window = 5
+meters_linger = 8
+# Write meters.json beside the mod (for stream overlays and tests).
+meters_json = on

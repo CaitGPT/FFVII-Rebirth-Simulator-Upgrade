@@ -1,0 +1,1 @@
+Development install: keeps ct-log.txt and ct-state.json, and reads ct-command.txt.

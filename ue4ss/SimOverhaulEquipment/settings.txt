@@ -1,0 +1,16 @@
+# Simulator Upgrade: equipment in the simulator. Lines are `equipment_<name> = <value>`; read at start-up.
+
+# The keyboard key that opens the main menu (Materia & Equipment and the rest) in Chadley's simulator.
+equipment_key = F3
+
+# The pad button that does the same: an engine key name (Gamepad_Special_Right is Start / Menu / Options,
+# Gamepad_Special_Left is View / Back), or off.
+equipment_pad_button = Gamepad_Special_Right
+
+# Where it works: course_list (the course list and every screen after choosing a course), after_course (only once a
+# course is chosen: team screen, summon level, "Begin challenge?"), or off. Never once a course has started.
+equipment_course_flow = course_list
+
+# The "Equipment" entry in the simulator's own key guide (the F3 key or Start button glyph, whichever device is in
+# use) while it works: on or off.
+equipment_hint = on

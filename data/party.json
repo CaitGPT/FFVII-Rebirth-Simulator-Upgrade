@@ -1,0 +1,19 @@
+{
+  // party workstream -> custom-training's build (tools/custom-training/Build-CustomTraining.ps1 folds "courseRow"
+  // into COL99_SimOverhaul_CT_Custom_vr). Whole-line comments only.
+  //
+  // Zack and Sephiroth in Custom Training's team list. ExtendedSequenceBits is the game's own switch: on a course
+  // whose EntryMember_Array is empty, bit value 2 adds Sephiroth and 4 adds Zack to the end of the team list, beside
+  // every party member (6 = both). The four vanilla Zack and Sephiroth courses set it the same way (Zack 4,
+  // Sephiroth 2). Seen in game 2026-11-20 on a copy of COL30_GRASA_01_Free_vr with this value: the list offered the
+  // seven party members, then Sephiroth and Zack; Zack, Sephiroth and Aerith cleared it, and so did Cloud, Barret and
+  // Tifa (docs/workstreams/party.md).
+  //
+  // Keep EntryMember_Array empty: a non-empty list replaces the whole team list. Nothing is needed at runtime.
+  "courseRow": {
+    "set": {
+      "ExtendedSequenceBits": "6"
+    }
+  },
+  "tables": []
+}

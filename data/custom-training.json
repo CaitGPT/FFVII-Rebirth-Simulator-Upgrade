@@ -1,0 +1,32 @@
+{
+  // Custom Training: one simulator course, one round, fought in the repurposed territory terVR_COL30_Gen_00_010.
+  // The territory's enemies (every opponent the course offers, as reinforcement waves) come from
+  // data/custom-training/generated.json, written by tools/custom-training/make_spec.py.
+  // data/party.json (from the party workstream) may add "set" values for this course row; the build merges it.
+  "tables": [
+    {
+      "asset": "DataObject/Resident/ColosseumPositionData.uasset",
+      "rows": [
+        { "name": "POS_Mod_SimOverhaul_CT_010", "cloneFrom": "POS_COL30_Sum_00_010", "set": {} }
+      ]
+    },
+    {
+      "asset": "DataObject/Resident/Colosseum.uasset",
+      "rows": [
+        { "name": "COL99_SimOverhaul_CT_Custom_vr", "cloneFrom": "COL30_GRASA_01_Free_vr",
+          "set": { "EnemyTerritoryID_Array": ["terVR_COL30_Gen_00_010"], "BattleScenePosDataID_Array": ["POS_Mod_SimOverhaul_CT_010"],
+                   "UserBattleInSequencerNames_Array": ["CSA_VrCoBattleIn_Common"], "BattleMax": "1",
+                   "DisplayFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"], "OpenFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"],
+                   "OpenConditionClearCheckID": "", "OpenConditionTextID": "", "OpenConditionClearCheckID01": "", "OpenConditionTextID01": "",
+                   "PreNotifyActionOrActionGroupID": "", "CourseSelectStateTriggerID": "",
+                   "RewardID": "", "ClearFlagID": "", "PlayLogClearFlagID": "",
+                   "ItemName": "$menu_Colosseum_CourseTitle_COL99_SimOverhaul_CT_Custom",
+                   "DisplayItemName": "$menu_Colosseum_CourseTitle_COL99_SimOverhaul_CT_Custom",
+                   "FlavorTextID": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_CT_Custom",
+                   "DisplayFlavorItemName": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_CT_Custom",
+                   "TabCategory": "7", "TimerSaveArrayIndex": "192", "DifficultyHardChangeToNormal": "1",
+                   "RecommendedLevelID": "rlvCOL30_SUMMON_Taitan" } }
+      ]
+    }
+  ]
+}

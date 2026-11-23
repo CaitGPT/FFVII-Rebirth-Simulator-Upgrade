@@ -1,0 +1,3 @@
+ui_menu_key = F7
+ui_pause = on
+ui_chord = on

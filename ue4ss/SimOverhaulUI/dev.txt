@@ -1,0 +1,1 @@
+Development install: keeps ui-log.txt and reads ui-command.txt.

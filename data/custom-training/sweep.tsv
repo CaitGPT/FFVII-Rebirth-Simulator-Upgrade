@@ -1,0 +1,246 @@
+template	boss	result	seconds	max hp	enemies seen	note
+mobcolvr_EN2200_00_Zuu_StandardEnd2_00		ok	0.7	5740	EN2200_00	
+mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00		ok	1.5	413	EN2201_03	
+mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00		ok	2.6	375	EN2203_00	
+mobcolvr_EN3001_03_VagidPolice_TwinBrainEnd2_00		ok	1.2	668	EN3001_03	
+mobcolvr_EN3200_00_Screamer_StandardEnd2_00		ok	0.9	1336	EN3200_00	
+mobcolvr_EN0008_00_Vice_Standard_Scimitar_00		ok	1.5	1124	EN0008_00	
+mobcolvr_EN0008_00_Vice_Standard_IronPipe_00		ok	0.8	2198	EN0008_00	
+mobcolvr_EN0008_01_Vice_VariationA_Axe_00		ok	0.9	1124	EN0008_01	
+mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00		ok	0.7	1124	EN0008_02	
+mobcolvr_EN0008_04_Vice_UniqueStandard_00		ok	2.5	4558	EN0008_04	
+mobcolvr_EN0008_05_Vice_UniqueVariationA_00		ok	1.3	3419	EN0008_05	
+mobcolvr_EN0008_06_Vice_UniqueVariationB_00		ok	0.9	3419	EN0008_06	
+mobcolvr_EN0010_00_ViceWrestler_Standard_00		ok	1.2	7344	EN0010_00	
+mobcolvr_EN0200_00_DevilRide_StandardEnd2_00		ok	0.7	34145	EN0008_02 EN0200_00	
+mobcolvr_EN1001_03_Sweeper_CustomEnd2_00		ok	1.9	21775	EN1001_03	
+mobcolvr_EN2001_02_WereRat_Poison_00		ok	0.9	816	EN2001_02	
+mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00		ok	0.9	2176	EN2001_03	
+mobcolvr_EN2100_00_Levrikon_Standard_00		ok	1.6	2672	EN2100_00	
+mobcolvr_EN2100_01_Levrikon_RareEnd2_00		ok	0.9	4676	EN2100_01	
+mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00		ok	1.0	957	EN2000_05	
+mobcolvr_EN2000_06_GuardHound_KalmFangRareEnd2_00		ok	1.3	4008	EN2000_06	
+mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00	boss	ok	1.0	31399	EN2000_07	
+mobcolvr_EN2008_02_Ceasar_CastanetsEnd2_00		ok	0.8	1515	EN2008_02	
+mobcolvr_EN2204_00_Mu_StandardEnd2_00		ok	1.1	668	EN2204_00	
+mobcolvr_EN2204_01_Mu_RareEnd2_00		ok	1.5	1670	EN2204_01	
+mobcolvr_EN2205_00_Mandragora_StandardEnd2_00		ok	1.6	668	EN2205_00	
+mobcolvr_EN2205_01_Mandragora_RareEnd2_00		ok	1.0	2672	EN2205_01	
+mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00		ok	1.9	1179	EN2206_00	
+mobcolvr_EN2206_01_Elfadunk_RareEnd2_00		ok	1.2	6528	EN2206_01	
+mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00	boss	ok	1.0	44064	EN2207_00	
+mobcolvr_EN2208_00_Crawler_StandardEnd2_00		ok	1.2	1124	EN2208_00	
+mobcolvr_EN2209_00_ArkDragon_StandardEnd2_00		ok	1.1	16068	EN2209_00	
+mobcolvr_EN2210_00_Flan_StandardEnd2_00		ok	2.2	675	EN2210_00	
+mobcolvr_EN2211_00_Ogre_StandardEnd2_00		ok	3.4	4980	EN2211_00	
+mobcolvr_EN2211_01_Ogre_OrcEnd2_00		ok	2.1	786	EN2211_01	
+mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00		ok	1.4	2370	EN2220_00	
+mobcolvr_EN2222_02_SearchCrown_BatteryCapRareEnd2_00		ok	1.1	7000	EN2222_02	
+mobcolvr_EN0000_00_SecuritySoldier_Standard_00		ok	1.1	6026	EN0000_00	
+mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00		ok	1.2	2448	EN0000_10	
+mobcolvr_EN0000_11_SecuritySoldier_StandardVer2End2_00		ok	1.6	2448	EN0000_11	
+mobcolvr_EN0000_01_SecuritySoldier_Senior_00		ok	1.4	2866	EN0000_01	
+mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00		ok	0.9	2866	EN0000_12	
+mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00		ok	2.4	3264	EN0000_13	
+mobcolvr_EN0000_06_SecuritySoldier_JunonEnd2_00		ok	3.2	3419	EN0000_06	
+mobcolvr_EN0000_14_SecuritySoldier_JunonVer1End2_00		ok	1.5	1730	EN0000_14	
+mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00		ok	1.4	1730	EN0000_15	
+mobcolvr_EN0000_08_SecuritySoldier_SeniorJunonEnd2_00		ok	2.4	4558	EN0000_08	
+mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00		ok	1.4	2306	EN0000_21	
+mobcolvr_EN0000_22_SecuritySoldier_SeniorJunonVer2End2_00		ok	2.1	2306	EN0000_22	
+mobcolvr_EN0001_00_GrenadeSoldier_Standard_00		ok	1.0	1632	EN0001_00	
+mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00		ok	0.8	1632	EN0001_06	
+mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00		ok	1.5	4017	EN0001_07	
+mobcolvr_EN0001_01_GrenadeSoldier_Senior_00		ok	1.7	2448	EN0001_01	
+mobcolvr_EN0001_04_GrenadeSoldier_SeniorVer1End2_00		ok	0.9	5133	EN0001_04	
+mobcolvr_EN0001_05_GrenadeSoldier_SeniorVer2End2_00		ok	0.9	2448	EN0001_05	
+mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00		ok	0.7	1153	EN0001_02	
+mobcolvr_EN0001_03_GrenadeSoldier_SeniorJunonEnd2_00		ok	0.7	1730	EN0001_03	
+mobcolvr_EN0002_00_ShieldSoldier_Standard_00		ok	0.9	9432	EN0002_00	
+mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00		ok	0.8	4896	EN0002_06	
+mobcolvr_EN0002_07_ShieldSoldier_StandardVer2End2_00		ok	0.7	4896	EN0002_07	
+mobcolvr_EN0002_03_ShieldSoldier_Flame_00		ok	0.8	3522	EN0002_03	
+mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00		ok	0.8	3522	EN0002_13	
+mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00		ok	0.6	3522	EN0002_14	
+mobcolvr_EN0002_04_ShieldSoldier_JunonEnd2_00		ok	0.7	4008	EN0002_04	
+mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00		ok	0.5	3459	EN0002_08	
+mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00		ok	0.9	3459	EN0002_09	
+mobcolvr_EN0002_05_ShieldSoldier_FlameJunonEnd2_00		ok	1.4	2306	EN0002_05	
+mobcolvr_EN1100_00_Bullmotor_Standard_00		ok	1.1	8407	EN1100_00	
+mobcolvr_EN2200_02_Zuu_TonaduEnd2_00		ok	1.9	3974	EN2200_02	
+mobcolvr_EN2200_03_Zuu_TonaduRareEnd2_00		ok	1.6	8830	EN2200_03	
+mobcolvr_EN2201_00_Formula_StandardEnd2_00		ok	1.0	749	EN2201_00	
+mobcolvr_EN2201_01_Formula_RareEnd2_00		ok	0.6	4857	EN2201_01	
+mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00	boss	ok	0.9	33500	EN2209_01	
+mobcolvr_EN2210_01_Flan_SubspeciesEnd2_00		ok	1.4	7693	EN2210_01	
+mobcolvr_EN2212_00_Zemzelett_StandardEnd2_00		ok	1.5	2247	EN2212_00	
+mobcolvr_EN2212_01_Zemzelett_RareEnd2_00		ok	0.7	8300	EN2212_01	
+mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00		ok	0.6	1049	EN2213_00	
+mobcolvr_EN2213_01_Nerosuferoth_RareEnd2_00		ok	1.4	2905	EN2213_01	
+mobcolvr_EN2214_00_Capparwire_StandardEnd2_00		ok	0.7	2010	EN2214_00	
+mobcolvr_EN2214_01_Capparwire_RareEnd2_00		ok	0.6	5025	EN2214_01	
+mobcolvr_EN2215_00_HellRiderGE_StandardEnd2_00	boss	ok	1.3	84357	EN2215_00	
+mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00	boss	ok	1.5	36850	EN2216_00	
+mobcolvr_EN3000_02_MonoDrive_ScrutinEyeEnd2_00		ok	2.0	2146	EN3000_02	
+mobcolvr_EN3001_04_VagidPolice_SephirothEnd2_00		ok	0.8	4299	EN3001_04	
+mobcolvr_EN3007_01_DeepGroundMonster_FusionEnd2_00		ok	1.2	3340	EN3007_01	
+mobcolvr_EN3200_01_Screamer_FusionEnd2_00		ok	0.5	2652	EN3200_01	
+mobcolvr_EN3201_00_Fusant_StandardEnd2_00		ok	0.7	9235	EN3201_00	
+mobcolvr_EN2015_00_Bomb_Standard_00		ok	0.8	6606	EN2015_00	
+mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_00		ok	0.9	1384	EN2003_02	
+mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G2_00		ok	2.1	1959	EN2003_02	
+mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G3_00		ok	0.6	1959	EN2003_02	
+mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00		ok	1.4	13056	EN2003_03	
+mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00		ok	0.5	13056	EN2003_03	
+mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G3_00		ok	0.7	13056	EN2003_03	
+mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00		ok	0.8	1442	EN2004_01	
+mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00		ok	1.0	2402	EN2004_02	
+mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00		ok	1.5	3098	EN2005_02	
+mobcolvr_EN2008_01_Ceasar_SubspeciesEnd2_00		ok	0.7	10608	EN2008_01	
+mobcolvr_EN2017_02_Tonberry_KingEnd2_00	boss	ok	2.6	36708	EN2017_02	
+mobcolvr_EN2201_02_Formula_SubspeciesEnd2_00		ok	1.6	6258	EN2201_02	
+mobcolvr_EN2218_00_Beachplug_StandardEnd2_00		ok	1.5	1778	EN2218_00	
+mobcolvr_EN2017_00_Tonberry_Standard_VR		ok	1.2	11670	EN2017_00	
+mobcolvr_EN2218_01_Beachplug_RareEnd2_00		ok	0.7	4148	EN2218_01	
+mobcolvr_EN2219_00_CrownLance_StandardEnd2_00		ok	0.6	923	EN2219_00	
+mobcolvr_EN2219_01_CrownLance_RareEnd2_00		ok	1.2	3522	EN2219_01	
+mobcolvr_EN2220_01_NeedleKiss_RareEnd2_00		ok	1.3	5333	EN2220_01	
+mobcolvr_EN2221_00_Seadevil_StandardEnd2_00		ok	1.2	52221	EN2221_00	
+mobcolvr_EN2222_00_SearchCrown_StandardEnd2_00		ok	1.4	2334	EN2222_00	
+mobcolvr_EN2223_00_Bagnadrana_StandardEnd2_00		ok	1.3	3900	EN2223_00	
+mobcolvr_EN2224_00_Cokatolis_StandardEnd2_00		ok	0.7	9008	EN2224_00	
+mobcolvr_EN0009_20_CorneoLackey_GreedAEnd2_00		ok	1.5	3890	EN0009_20	
+mobcolvr_EN0009_21_CorneoLackey_GreedBEnd2_00		ok	1.9	4863	EN0009_21	
+mobcolvr_EN0009_22_CorneoLackey_GreedCEnd2_00		ok	0.8	5835	EN0009_22	
+mobcolvr_EN2010_03_Deenglow_FlapbeatEnd2_00		ok	1.5	3890	EN2010_03	
+mobcolvr_EN2225_00_DeathClaw_StandardEnd2_00		ok	0.7	5712	EN2225_00	
+mobcolvr_EN2228_00_Spencer_StandardEnd2_00		ok	0.8	1802	EN2228_00	
+mobcolvr_EN2229_00_Chimaera_StandardEnd2_00		ok	1.5	5405	EN2229_00	
+mobcolvr_EN2227_00_LandWorm_StandardEnd2_00		ok	1.3	7206	EN2227_00	
+mobcolvr_EN2010_04_Deenglow_FlapbeatRareEnd2_00		ok	0.9	6720	EN2010_04	
+mobcolvr_EN2227_01_LandWorm_RareEnd2_00		ok	0.6	15613	EN2227_01	
+mobcolvr_EN2228_01_Spencer_RareEnd2_00		ok	0.5	3603	EN2228_01	
+mobcolvr_EN2229_01_Chimaera_RareEnd2_00		ok	1.7	9608	EN2229_01	
+mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00	boss	ok	1.4	24480	EN2015_05	
+mobcolvr_EN2225_01_DeathClaw_SubspeciesEnd2_00	boss	ok	1.1	29175	EN2225_01	
+mobcolvr_EN2230_00_Joker_StandardEnd2_00		ok	1.3	24609	EN2230_00	
+mobcolvr_EN2000_10_GuardHound_TestZeroEnd2_00		ok	1.3	9891	EN2000_10	
+mobcolvr_EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2_00		ok	1.0	11682	EN2000_10	
+mobcolvr_EN2217_00_Grangalan_StandardEnd2_00		ok	1.3	3340	EN2217_00	
+mobcolvr_EN2217_01_Grangalan_ChildEnd2_00		ok	0.5	1470	EN2217_01	
+mobcolvr_EN2217_02_Grangalan_GrandchildEnd2_00		ok	0.5	535	EN2217_02	
+mobcolvr_EN2236_00_KimaraBug_StandardEnd2_00		ok	1.3	416	EN2236_00	
+mobcolvr_EN2236_02_KimaraBug_GongagaEnd2		ok	1.3	5541	EN2236_02	
+mobcolvr_EN2231_02_GrandHorn_SavageEnd2_00		ok	1.3	16800	EN2231_02	
+mobcolvr_EN2237_00_HeavyTank_StandardEnd2_00		ok	1.2	16800	EN2237_00	
+mobcolvr_EN2232_00_Gagighandi_StandardEnd2_00		ok	1.1	4676	EN2232_00	
+mobcolvr_EN2234_00_FlowerProng_StandardEnd2_00		ok	1.2	4200	EN2234_00	
+mobcolvr_EN2231_00_GrandHorn_StandardEnd2_00		ok	1.3	2520	EN2231_00	
+mobcolvr_EN2231_01_GrandHorn_RareEnd2_00		ok	1.1	6300	EN2231_01	
+mobcolvr_EN2232_01_Gagighandi_RareEnd2_00		ok	0.5	9352	EN2232_01	
+mobcolvr_EN2233_01_TouchMe_RareEnd2_00		ok	1.2	5344	EN2233_01	
+mobcolvr_EN2234_03_FlowerProng_RareEnd2_00		ok	0.5	7000	EN2234_03	
+mobcolvr_EN2100_02_Levrikon_SubspeciesEnd2_00	boss	ok	1.3	28395	EN2100_02	
+mobcolvr_EN2206_02_Elfadunk_SubspeciesEnd2_00		ok	1.2	16091	EN2206_02	
+mobcolvr_EN2235_00_Gigantoad_StandardEnd2_00	boss	ok	0.6	44735	EN2235_00	
+mobcolvr_EN2016_01_Morbol_GreatEnd2_00	boss	ok	1.1	78652	EN2016_01	
+mobcolvr_EN3202_00_Bioweapon_StandardEnd2_00		ok	1.2	4470	EN3202_00	
+mobcolvr_EN1008_00_StunRay_Standard_00		ok	1.3	3264	EN1008_00	
+mobcolvr_EN2208_01_Crawler_NidhoggEnd2_00		ok	1.2	2994	EN2208_01	
+mobcolvr_EN2226_00_2Faced_StandardEnd2_00		ok	1.3	5283	EN2226_00	
+mobcolvr_EN2245_00_Stinger_StandardEnd2_00		ok	1.1	4403	EN2245_00	
+mobcolvr_EN2244_00_GiSpector_StandardEnd2_00		ok	1.1	6837	EN2244_00	
+mobcolvr_EN2244_00_GiSpector_SpearEnd2_00		ok	1.1	5679	EN2244_00	
+mobcolvr_EN2244_00_GiSpector_WandEnd2_00		ok	1.2	2840	EN2244_00	
+mobcolvr_EN2244_00_GiSpector_BowEnd2_00		ok	1.1	4733	EN2244_00	
+mobcolvr_EN3004_01_Zenene_SneakyStepEnd2_00		ok	1.1	24102	EN3004_01	
+mobcolvr_EN2241_00_Bagrisk_StandardEnd2_00		ok	1.1	2122	EN2241_00	
+mobcolvr_EN2238_00_Skeeskee_StandardEnd2_00		ok	1.1	4080	EN2238_00	
+mobcolvr_EN2009_02_Sahagin_DesertEnd2_00		ok	1.3	4896	EN2009_02	
+mobcolvr_EN2240_00_Golem_StandardEnd2_00		ok	1.1	11725	EN2240_00	
+mobcolvr_EN2009_03_Sahagin_DesertRareEnd2_00		ok	1.2	6700	EN2009_03	
+mobcolvr_EN2238_01_Skeeskee_RareEnd2_00		ok	1.1	9466	EN2238_01	
+mobcolvr_EN2240_01_Golem_RareEnd2_00		ok	1.2	20100	EN2240_01	
+mobcolvr_EN2241_01_Bagrisk_RareEnd2_00		ok	1.1	5712	EN2241_01	
+mobcolvr_EN2227_02_LandWorm_SubspeciesEnd2_00	boss	ok	1.5	27705	EN2227_02	
+mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00		ok	0.5	24609	EN2237_01	
+mobcolvr_EN2242_00_Reapertail_StandardEnd2_00		ok	0.6	24609	EN2242_00	
+mobcolvr_EN2243_00_Jabberwock_StandardEnd2_00	boss	ok	1.2	48060	EN2243_00	
+mobcolvr_EN2222_01_SearchCrown_BatteryCapEnd2_00		ok	1.4	1761	EN2222_01	
+mobcolvr_EN2000_08_GuardHound_NibelWolfEnd2_00		ok	1.2	4579	EN2000_08	
+mobcolvr_EN2246_00_Valron_StandardEnd2_00		ok	1.1	8940	EN2246_00	
+mobcolvr_EN2247_00_VelcherTask_StandardEnd2_00		ok	1.0	12516	EN2247_00	
+mobcolvr_EN2000_09_GuardHound_NibelWolfRareEnd2_00		ok	1.1	9686	EN2000_09	
+mobcolvr_EN2200_01_Zuu_RareEnd2_00	boss	ok	0.6	38900	EN2200_01	
+mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00		ok	1.1	5283	EN2203_01	
+mobcolvr_EN2246_01_Valron_RareEnd2_00		ok	1.2	12516	EN2246_01	
+mobcolvr_EN2247_01_VelcherTask_RareEnd2_00	boss	ok	1.1	44700	EN2247_01	
+mobcolvr_EN2223_01_Bagnadrana_SubspeciesEnd2_00		ok	1.1	56238	EN2223_01	
+mobcolvr_EN2236_01_KimaraBug_SubspeciesEnd2_00		ok	1.1	11358	EN2236_01	
+mobcolvr_EN2248_00_KillerBee_StandardEnd2_00	boss	ok	1.2	52221	EN2248_00	
+mobcolvr_EN2248_01_KillerBee_ChildEnd2		ok	0.4	8034	EN2248_01	
+mobcolvr_EN2200_04_Zuu_KingEnd2_00	boss	ok	1.2	61410	EN2200_04	
+mobcolvr_EN2101_05_HereticRayleigh_SubspeciesEnd2_00	boss	ok	1.3	24011	EN2101_05	
+mobcolvr_EN2202_00_Dragon_StandardEnd2_00	boss	ok	1.1	49350	EN2202_00	
+mobcolvr_EN2250_00_BlackBat_StandardEnd2_00		ok	1.1	3214	EN2250_00	
+mobcolvr_EN2249_00_BahbaVelamyu_StandardEnd2_00		ok	1.0	8034	EN2249_00	
+mobcolvr_EN3203_00_DorkyFace_StandardEnd2_00		ok	1.0	10043	EN3203_00	
+mobcolvr_EN3204_00_YingYang_StandardEnd2_00		ok	1.3	10728	EN3204_00	
+mobcolvr_EN0007_02_Soldier3rd_LoccheSEnd2_00		ok	1.2	31906	EN0007_02	
+mobcolvr_EN3205_00_Jersey_StandardEnd2_00		ok	0.5	8046	EN3205_00	
+mobcolvr_EN2233_02_TouchMe_ToxicFrogEnd2_00		ok	0.7	4821	EN2233_02	
+mobcolvr_EN2251_00_Slaps_StandardEnd2_00		ok	1.2	3214	EN2251_00	
+mobcolvr_EN0000_05_SecuritySoldier_SpecialForcesEnd2_00		ok	1.3	12051	EN0000_05	
+mobcolvr_EN2232_02_Gagighandi_UnderLizardEnd2_00		ok	1.1	14060	EN2232_02	
+mobcolvr_EN2255_00_8eye_StandardEnd2_00		ok	1.2	18077	EN2255_00	
+mobcolvr_EN0007_03_Soldier3rd_2ndEnd2_00		ok	1.3	18077	EN0007_03	
+mobcolvr_EN1008_06_StunRay_GroundtypeEnd2_00		ok	1.1	12051	EN1008_06	
+mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00		ok	1.2	22094	EN2209_02	
+mobcolvr_EN2252_00_Kelzmelzer_StandardEnd2_00		ok	1.2	12051	EN2252_00	
+mobcolvr_EN2254_00_Doorbull_StandardEnd2_00		ok	1.3	18077	EN2254_00	
+mobcolvr_EN2256_00_Adamantaimai_StandardEnd2_00	boss	ok	1.4	76323	EN2256_00	
+mobcolvr_EN2257_00_IronMan_StandardEnd2_00	boss	ok	1.2	52515	EN2257_00	
+mobcolvr_EN2258_00_Allemagne_StandardEnd2_00		ok	1.2	32136	EN2258_00	
+mobcolvr_EN2258_01_Allemagne_SubspeciesEnd2_00		ok	1.1	56238	EN2258_01	
+mobcolvr_EN0201_00_Goblin_StandardEnd2_00	boss	ok	1.2	38900	EN0201_00	
+mobcolvr_EN2017_00_Tonberry_Standard_00		ok	1.1	2279	EN2017_00	
+mobcolvr_SU2000_00_Titan_Standard_00	boss	ok	1.2	84357	SU2000_01	
+mobcolvr_SU2040_01_Phoenix_Standard_00	boss	ok	1.5	88374	SU2040_01	
+mobcolvr_SU2030_01_Alexander_Standard_00	boss	ok	1.5	72306	SU2030_01	
+mobcolvr_SU2020_01_Kjata_Standard_00	boss	ok	1.2	160680	SU2020_01	
+mobcolvr_SU2050_01_NeoBahamut_Standard_00	boss	ok	1.2	172731	SU2050_01	
+mobcolvr_SU2015_00_Sleipnir_Standard_00	boss	ok	1.3	148629	SU2010_01 SU2015_01	
+mobcolvr_SU2000_01_Titan_GilQuest_00	boss	ok	1.2	48204	SU2000_01	
+mobcolvr_SU2050_01_NeoBahamut_GilQuest_00	boss	ok	1.1	80340	SU2050_01	
+mobcolvr_SU2040_01_Phoenix_GilQuest_00	boss	ok	0.6	40170	SU2040_01	
+mobcolvr_SU2020_01_Kjata_GilQuest_00	boss	ok	1.2	64272	SU2020_01	
+mobcolvr_SU2015_01_Sleipnir_GilQuest_00	boss	ok	1.3	72306	SU2010_01 SU2015_01	
+mobcolvr_SU2030_01_Alexander_GilQuest_00	boss	ok	0.7	52221	SU2030_01	
+mobcolvr_SU2060_01_Gilgamesh_Standard_00	boss	ok	1.6	82044	SU2060_02	
+mobcolvr_SU2060_01_Gilgamesh_Hard_00	boss	ok	0.5	144612	SU2060_02	
+mobcolvr_EN2231_00_GrandHorn_Phoenix_00		ok	0.4	3214	EN2231_00	
+mobcolvr_EN2015_00_Bomb_Phoenix_00		ok	1.7	5223	EN2015_00	
+mobcolvr_EN2210_00_Flan_Phoenix_00		ok	0.4	2009	EN2210_00	
+mobcolvr_EN2211_00_Ogre_Phoenix_00		ok	0.4	10043	EN2211_00	
+mobcolvr_EN2201_00_Formula_Phoenix_00		ok	0.4	2812	EN2201_00	
+mobcolvr_EN2209_00_ArkDragon_Phoenix_00		ok	0.5	6026	EN2209_00	
+mobcolvr_EN2211_02_Ogre_SubspeciesEnd2_00	boss	ok	1.1	96408	EN2211_02	
+mobcolvr_EN2207_03_Quetzalcoatl_SubspeciesEnd2_00	boss	ok	1.1	108459	EN2207_03	
+mobcolvr_EN2246_02_Valron_SubspeciesEnd2_00	boss	ok	1.2	72306	EN2246_02	
+mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00	boss	ok	1.3	68289	EN2202_01	
+mobcolvr_EN9999_00_MikataTest_Standard_00		ok	1.1	2279	EN9999_00	
+mobcolvr_PC0010_20_Sephiroth_VRHard_00	boss	ok	1.1	140595	PC0010_20	
+mobcolvr_EN0008_02_Vice_VariationB_00		no_spawn				the mod gave up on it
+mobcolvr_EN0000_07_SecuritySoldier_MidgarEnd2_00		no_spawn				the mod gave up on it
+mobcolvr_EN0007_01_Soldier3rd_Locche_00		no_spawn				the mod gave up on it
+mobcolvr_EN1001_00_Sweeper_Standard_00		ok	9.1	7144	EN1001_04	
+mobcolvr_EN2259_00_Cactuar_Standard		ok	0.5	1173	SU0008_00	
+mobcolvr_EN2259_01_Cactuar_SapoEnd2_00		ok	1.1	1143	SU0008_01	
+mobcolvr_EN2259_02_Cactuar_SapoRareEnd2_00		ok	1.0	2052	SU0008_02	
+mobcolvr_EN2259_03_Cactuar_JaboEnd2_00		ok	1.0	20823	SU0008_03	
+mobcolvr_EN2259_05_Cactuar_JapoEnd2_00		ok	1.1	21395	SU0008_05	
+mobcolvr_EN2233_00_TouchMe_StandardEnd2_00		ok	1.2	1336	EN2233_00	
+mobcolvr_EN2239_00_Griffin_StandardEnd2_00		ok	1.0	8375	EN2207_01	
+mobcolvr_EN2239_01_Griffin_RareEnd2_00	boss	ok	1.1	28475	EN2207_02	
+mobcolvr_SU2010_00_Odin_Standard_00	boss	no_spawn				the mod gave up on it
+mobcolvr_SU2010_01_Odin_GilQuest_00	boss	no_spawn				the mod gave up on it

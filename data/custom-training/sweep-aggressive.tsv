@@ -1,0 +1,241 @@
+template	boss	appeared	hits	damage	first hit	attack names	party refills	mp given	distance start	distance end	moved	height	hidden	adds	left behind	course	result	note
+mobcolvr_EN2200_00_Zuu_StandardEnd2_00		0.4	2	199	2.8		0	0	3.2	7.8	0.0	1.6		EN2200_00	0	running	pass	
+mobcolvr_EN0008_00_Vice_Standard_Scimitar_00		1.1	6	6	4.2		0	0	6.6	3.0	6.2	0.0			0	running	pass	
+mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00		1.1	2	2	2.8		0	0	11.2	10.9	4.9	0.1			0	running	pass	
+mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00		0.5	2	2	4.0		0	0	10.2	3.0	5.8	-0.5		EN2203_00	0	running	pass	
+mobcolvr_EN3001_03_VagidPolice_TwinBrainEnd2_00		1.1	5	6	4.1		0	0	9.6	1.8	12.6	0.0			0	running	pass	
+mobcolvr_EN3200_00_Screamer_StandardEnd2_00		1.1	3	3	4.1		0	0	12.7	4.5	9.5	0.4			0	running	pass	
+mobcolvr_EN0008_00_Vice_Standard_IronPipe_00		1.1	2	84	4.2		0	0	5.4	4.9	4.9	0.0			0	running	pass	
+mobcolvr_EN0008_01_Vice_VariationA_Axe_00		1.2	3	3	4.0		0	0	7.7	1.8	10.4	0.0			0	running	pass	
+mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00		1.1	2	3	4.0		0	0	9.6	6.0	7.4	0.0			0	running	pass	
+mobcolvr_EN0008_04_Vice_UniqueStandard_00		1.0	6	205	4.0		0	0	6.6	2.5	11.7	-0.1			0	running	pass	
+mobcolvr_EN0008_06_Vice_UniqueVariationB_00		1.4	2	265	2.7		0	0	0.7	3.4	2.5	0.1			0	running	pass	
+mobcolvr_EN0010_00_ViceWrestler_Standard_00		1.3	3	864	5.2		0	0	5.4	2.8	20.1	0.3			0	running	pass	
+mobcolvr_EN0200_00_DevilRide_StandardEnd2_00		1.2	2	409	2.6		0	0	22.6	16.6	35.8	1.2			0	running	pass	
+mobcolvr_EN1001_03_Sweeper_CustomEnd2_00		1.1	9	237	4.1		0	0	20.6	14.3	32.0	1.6			0	running	pass	
+mobcolvr_EN2001_02_WereRat_Poison_00		1.4	2	3	12.4		0	0	17.0	1.3	15.3	-0.3			0	running	pass	
+mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00		1.1	6	212	3.9		0	0	12.3	5.6	6.2	-0.3			0	running	pass	
+mobcolvr_EN2100_00_Levrikon_Standard_00		1.3	7	294	1.2		0	0	12.2	1.6	11.3	0.6			0	running	pass	
+mobcolvr_EN2100_01_Levrikon_RareEnd2_00		1.2	15	402	1.2		0	0	11.8	2.9	11.2	0.6			0	running	pass	
+mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00		1.1	11	349	1.1		0	0	6.9	2.5	3.6	-0.2			0	running	pass	
+mobcolvr_EN2000_06_GuardHound_KalmFangRareEnd2_00		1.1	9	345	1.2		1	0	6.4	5.7	6.7	-0.2			0	running	pass	
+mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00	boss	1.1	8	336	1.2		0	0	6.7	5.3	11.5	-0.2			0	running	pass	
+mobcolvr_EN2008_02_Ceasar_CastanetsEnd2_00		1.1	8	336	1.2		0	0	6.1	3.4	1.3	-0.1			0	running	pass	
+mobcolvr_EN2204_01_Mu_RareEnd2_00		1.3	9	337	1.2		0	0	11.6	8.6	0.0	-0.1			0	running	pass	
+mobcolvr_EN2205_00_Mandragora_StandardEnd2_00		1.5	9	338	1.3		0	0	9.6	0.4	13.3	-0.3			0	running	pass	
+mobcolvr_EN2205_01_Mandragora_RareEnd2_00		1.1	10	390	1.2		0	0	11.5	6.2	2.4	-0.3			0	running	pass	
+mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00		1.1	10	401	1.2		0	0	5.8	8.4	1.9	0.7			0	running	pass	
+mobcolvr_EN2206_01_Elfadunk_RareEnd2_00		1.1	10	402	1.2		1	0	10.8	4.4	10.3	1.2			0	running	pass	
+mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00	boss	1.1	9	701	1.2		0	0	15.7	4.0	20.4	1.1			0	running	pass	
+mobcolvr_EN2208_00_Crawler_StandardEnd2_00		1.1	8	336	1.2		0	0	14.6	5.3	4.7	0.0			0	running	pass	
+mobcolvr_EN2209_00_ArkDragon_StandardEnd2_00		1.2	10	746	1.2		0	0	8.5	3.2	7.4	0.6			0	running	pass	
+mobcolvr_EN2210_00_Flan_StandardEnd2_00		1.3	9	337	1.2		0	0	12.4	8.9	0.7	0.0			0	running	pass	
+mobcolvr_EN2211_00_Ogre_StandardEnd2_00		1.1	10	409	1.2		0	0	10.1	6.6	8.7	0.7			0	running	pass	
+mobcolvr_EN2211_01_Ogre_OrcEnd2_00		1.1	9	370	1.2		0	0	14.9	1.9	7.6	-0.0			0	running	pass	
+mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00		1.1	2	84	1.2		1	0	7.6	2.1	10.3	-0.3			0	running	pass	
+mobcolvr_EN2222_02_SearchCrown_BatteryCapRareEnd2_00		1.1	2	122	12.4		0	0	9.6	8.6	0.0	1.6			0	running	pass	
+mobcolvr_EN0000_00_SecuritySoldier_Standard_00		1.1	4	303	2.6		0	0	7.9	4.3	4.8	0.0			0	running	pass	
+mobcolvr_EN0000_10_SecuritySoldier_StandardVer1End2_00		1.1	2	63	2.6		0	0	1.4	2.2	6.7	0.0			0	running	pass	
+mobcolvr_EN0000_11_SecuritySoldier_StandardVer2End2_00		1.1	3	148	2.6		0	0	4.1	7.1	8.3	0.0			0	running	pass	
+mobcolvr_EN0000_01_SecuritySoldier_Senior_00		1.3	2	336	4.1		0	0	1.1	11.4	5.6	0.0			0	running	pass	
+mobcolvr_EN0000_12_SecuritySoldier_SeniorVer1End2_00		1.0	3	141	5.4		0	0	6.3	7.9	2.8	0.0			0	running	pass	
+mobcolvr_EN0000_13_SecuritySoldier_SeniorVer2End2_00		1.2	2	378	5.4		0	0	5.3	9.5	2.0	0.0			0	running	pass	
+mobcolvr_EN0000_06_SecuritySoldier_JunonEnd2_00		1.1	4	333	2.6		0	0	8.6	6.1	4.0	0.0			0	running	pass	
+mobcolvr_EN0000_14_SecuritySoldier_JunonVer1End2_00		1.1	2	60	3.9		0	0	4.1	2.6	6.9	1.5			0	running	pass	
+mobcolvr_EN0000_15_SecuritySoldier_JunonVer2End2_00		1.1	2	59	2.5		0	0	4.0	7.3	8.5	0.0			0	running	pass	
+mobcolvr_EN0000_08_SecuritySoldier_SeniorJunonEnd2_00		1.3	2	520	5.4		0	0	1.4	11.0	3.8	0.0			0	running	pass	
+mobcolvr_EN0000_21_SecuritySoldier_SeniorJunonVer1End2_00		1.3	2	61	5.3		0	0	7.7	1.7	2.6	0.0			0	running	pass	
+mobcolvr_EN0000_22_SecuritySoldier_SeniorJunonVer2End2_00		1.3	3	97	5.4		0	0	3.0	8.6	4.6	0.0			0	running	pass	
+mobcolvr_EN0001_00_GrenadeSoldier_Standard_00		1.1	2	91	4.0		0	0	4.1	6.3	9.9	0.0			0	running	pass	
+mobcolvr_EN0001_06_GrenadeSoldier_StandardVer1End2_00		1.2	1	33	3.9		0	0	3.8	7.4	7.9	0.0			0	running	pass	
+mobcolvr_EN0001_07_GrenadeSoldier_StandardVer2End2_00		1.2	2	169	9.4		0	0	8.1	10.3	7.4	0.0			0	running	pass	
+mobcolvr_EN0001_02_GrenadeSoldier_JunonEnd2_00		1.2	1	29	4.1		0	0	5.4	2.7	13.7	1.8			0	running	pass	
+mobcolvr_EN0002_00_ShieldSoldier_Standard_00		1.2	1	133	6.8		0	0	17.0	6.8	13.3	0.0			0	running	pass	
+mobcolvr_EN0002_06_ShieldSoldier_StandardVer1End2_00		1.1	1	90	15.0		0	0	13.6	6.9	13.6	0.0			0	running	pass	
+mobcolvr_EN0002_07_ShieldSoldier_StandardVer2End2_00		1.1	2	174	19.2		0	0	17.9	2.8	17.5	0.0			0	running	pass	
+mobcolvr_EN0002_03_ShieldSoldier_Flame_00		1.2	2	57	10.8		0	0	14.6	4.8	5.7	0.0			0	running	pass	
+mobcolvr_EN0002_13_ShieldSoldier_FlameVer1End2_00		1.1	2	84	4.1		0	0	11.1	5.2	5.8	0.0			0	running	pass	
+mobcolvr_EN0002_14_ShieldSoldier_FlameVer2End2_00		1.1	4	169	2.6		0	0	4.7	4.0	3.3	0.0			0	running	pass	
+mobcolvr_EN0002_04_ShieldSoldier_JunonEnd2_00		1.2	2	139	14.0		1	0	3.3	3.8	13.6	0.0			0	running	pass	
+mobcolvr_EN0002_08_ShieldSoldier_JunonVer1End2_00		1.1	1	51	15.3		0	0	18.0	5.7	14.8	0.0			0	running	pass	
+mobcolvr_EN0002_05_ShieldSoldier_FlameJunonEnd2_00		1.1	2	42	4.2		0	0	13.4	4.8	4.2	0.0			0	running	pass	
+mobcolvr_EN1001_00_Sweeper_Standard_00		1.1	3	411	8.2		0	0	5.9	13.0	33.8	1.6			0	running	pass	
+mobcolvr_EN1100_00_Bullmotor_Standard_00		1.1	2	62	5.7		0	0	22.5	11.8	28.9	0.3			0	running	pass	
+mobcolvr_EN2200_02_Zuu_TonaduEnd2_00		1.2	2	203	1.2		0	0	15.8	5.8	10.0	0.3			0	running	pass	
+mobcolvr_EN2200_03_Zuu_TonaduRareEnd2_00		1.0	7	242	1.2		0	0	1.9	16.2	7.6	0.2			0	running	pass	
+mobcolvr_EN2201_00_Formula_StandardEnd2_00		1.1	2	2	2.5		0	0	8.9	11.2	20.4	2.5			0	running	pass	
+mobcolvr_EN2201_01_Formula_RareEnd2_00		1.1	2	86	2.5		0	0	6.2	3.2	17.9	0.3			0	running	pass	
+mobcolvr_EN2209_01_ArkDragon_SubspeciesEnd2_00	boss	1.1	2	386	2.5		0	0	18.1	5.2	18.0	0.6			0	running	pass	
+mobcolvr_EN2210_01_Flan_SubspeciesEnd2_00		1.1	2	121	8.1		0	0	17.1	3.9	7.7	1.4			0	running	pass	
+mobcolvr_EN2212_00_Zemzelett_StandardEnd2_00		1.2	2	20	3.9		0	0	12.8	11.2	0.0	0.4			0	running	pass	
+mobcolvr_EN2212_01_Zemzelett_RareEnd2_00		1.0	2	71	8.0		0	0	5.8	11.1	10.3	0.4			0	running	pass	
+mobcolvr_EN2213_00_Nerosuferoth_StandardEnd2_00		1.1	2	21	6.8		0	0	4.0	11.1	5.3	-0.4			0	running	pass	
+mobcolvr_EN2213_01_Nerosuferoth_RareEnd2_00		1.1	3	88	2.6		0	0	5.7	6.9	7.6	-0.4			0	running	pass	
+mobcolvr_EN2214_00_Capparwire_StandardEnd2_00		1.1	1	48	3.9		0	0	8.6	1.8	14.0	0.0			0	running	pass	
+mobcolvr_EN2214_01_Capparwire_RareEnd2_00		1.1	2	140	10.9		0	0	10.9	9.7	8.8	0.0			0	running	pass	
+mobcolvr_EN2215_00_HellRiderGE_StandardEnd2_00	boss	1.1	2	1423	8.0		0	0	3.0	2.1	30.8	1.1			0	running	pass	
+mobcolvr_EN2216_00_Mindflayer_StandardEnd2_00	boss	1.1	2	955	5.3		1	0	33.6	9.6	12.5	1.7			0	running	pass	
+mobcolvr_EN3000_02_MonoDrive_ScrutinEyeEnd2_00		1.2	2	959	1.2		0	0	22.6	19.6	17.7	0.0			0	running	pass	
+mobcolvr_EN3001_04_VagidPolice_SephirothEnd2_00		1.1	2	208	4.1		0	0	21.6	5.1	5.5	0.0			0	running	pass	
+mobcolvr_EN3007_01_DeepGroundMonster_FusionEnd2_00		1.1	3	313	4.0		0	0	8.6	1.6	21.6	0.0			0	running	pass	
+mobcolvr_EN3200_01_Screamer_FusionEnd2_00		1.0	2	69	13.8		0	0	19.1	5.2	22.6	0.4			0	running	pass	
+mobcolvr_EN3201_00_Fusant_StandardEnd2_00		1.1	2	91	5.4		0	0	15.6	4.5	11.1	0.6			0	running	pass	
+mobcolvr_EN2015_00_Bomb_Standard_00		1.1	3	125	4.0		0	0	6.1	7.3	3.2	-0.3			0	running	pass	
+mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_00		1.3	2	373	13.7		0	0	11.4	2.9	14.1	0.0			0	running	pass	
+mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G2_00		0.4	2	738	5.4		0	0	9.8	2.6	15.3	0.2			0	running	pass	
+mobcolvr_EN2003_02_PuzoCute_TropicalEnd2_G3_00		0.4	1	210	16.5		0	0	10.9	2.7	7.7	0.3			0	running	pass	
+mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_00		1.1	1	100	18.0		0	0	4.5	3.6	6.5	0.3		EN2003_02	0	running	pass	
+mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G2_00		0.4	1	98	16.6		0	0	7.7	4.1	14.9	0.3		EN2003_02	0	running	pass	
+mobcolvr_EN2004_01_ChuseTank_SeaEnd2_00		1.2	2	92	6.9		0	0	11.3	2.9	23.2	0.3			0	running	pass	
+mobcolvr_EN2004_02_ChuseTank_SeaRareEnd2_00		1.2	2	180	3.9		0	0	8.6	1.0	13.4	0.0			0	running	pass	
+mobcolvr_EN2005_02_HedgehogPie_CoaltarEnd2_00		1.1	2	262	1.2		1	2	15.2	2.9	15.1	0.0			0	running	pass	
+mobcolvr_EN2008_01_Ceasar_SubspeciesEnd2_00		1.1	1	150	16.6		0	0	14.6	5.6	16.0	0.3			0	running	pass	
+mobcolvr_EN2201_02_Formula_SubspeciesEnd2_00		1.2	2	191	4.1		0	0	17.2	16.2	34.2	-0.0			0	running	pass	
+mobcolvr_EN2218_00_Beachplug_StandardEnd2_00		1.1	2	58	5.4		0	0	16.3	8.9	3.4	-0.1			0	running	pass	
+mobcolvr_EN2218_01_Beachplug_RareEnd2_00		1.1	2	74	5.8		0	0	10.4	8.8	0.0	0.1			0	running	pass	
+mobcolvr_EN2219_00_CrownLance_StandardEnd2_00		1.1	2	115	5.5		0	0	8.0	6.0	3.0	0.7			0	running	pass	
+mobcolvr_EN2219_01_CrownLance_RareEnd2_00		1.1	2	210	6.7		0	0	6.0	8.9	3.7	0.7			0	running	pass	
+mobcolvr_EN2220_01_NeedleKiss_RareEnd2_00		1.1	2	74	8.2		0	0	9.8	0.7	16.4	0.3			0	running	pass	
+mobcolvr_EN2221_00_Seadevil_StandardEnd2_00		1.1	2	674	2.6		0	0	16.9	11.1	23.8	1.1			0	running	pass	
+mobcolvr_EN2222_00_SearchCrown_StandardEnd2_00		1.1	2	181	2.6		0	0	17.1	11.1	0.0	1.4			0	running	pass	
+mobcolvr_EN2223_00_Bagnadrana_StandardEnd2_00		1.1	2	88	3.8		0	0	9.1	8.2	8.2	0.3			0	running	pass	
+mobcolvr_EN2224_00_Cokatolis_StandardEnd2_00		1.1	2	161	2.5		0	0	11.1	5.1	11.3	0.5			0	running	pass	
+mobcolvr_EN0009_20_CorneoLackey_GreedAEnd2_00		1.1	1	117	9.6		0	0	11.2	2.9	8.6	0.0			0	running	pass	
+mobcolvr_EN2010_03_Deenglow_FlapbeatEnd2_00		0.6	3	201	11.2		0	0	3.0	2.3	8.2	0.1			0	running	pass	
+mobcolvr_EN2225_00_DeathClaw_StandardEnd2_00		1.1	2	445	1.2		0	0	8.0	4.2	9.2	0.5			0	running	pass	
+mobcolvr_EN2228_00_Spencer_StandardEnd2_00		1.1	2	410	1.2		0	0	13.8	6.9	20.5	3.1			0	running	pass	
+mobcolvr_EN2229_00_Chimaera_StandardEnd2_00		1.2	2	81	12.2		0	0	20.2	4.7	16.6	0.6			0	running	pass	
+mobcolvr_EN2227_00_LandWorm_StandardEnd2_00		1.1	2	397	12.4		0	0	19.8	7.0	26.3	2.1			0	running	pass	
+mobcolvr_EN2010_04_Deenglow_FlapbeatRareEnd2_00		1.2	2	99	6.8		1	0	19.7	7.3	21.8	0.1			0	running	pass	
+mobcolvr_EN2227_01_LandWorm_RareEnd2_00		1.2	3	197	2.6		0	0	20.5	19.8	3.7	2.6			0	running	pass	
+mobcolvr_EN2228_01_Spencer_RareEnd2_00		1.2	5	95	5.4		0	0	24.2	3.9	31.0	-0.3			0	running	pass	
+mobcolvr_EN2229_01_Chimaera_RareEnd2_00		1.1	2	77	6.7		0	0	30.2	4.4	21.3	0.6			0	running	pass	
+mobcolvr_EN2259_00_Cactuar_Standard		1.1	4	226	5.3		0	0	22.8	6.9	22.0	0.0			0	running	pass	
+mobcolvr_EN2259_01_Cactuar_SapoEnd2_00		1.2	8	504	1.2		0	0	18.1	4.8	11.7	0.0			0	running	pass	
+mobcolvr_EN2259_02_Cactuar_SapoRareEnd2_00		1.0	16	1241	1.2		0	0	12.8	4.9	7.9	0.0			0	running	pass	
+mobcolvr_EN2259_03_Cactuar_JaboEnd2_00		1.1	11	863	1.2		1	0	14.0	2.6	30.1	1.1			0	running	pass	
+mobcolvr_EN2259_05_Cactuar_JapoEnd2_00		1.1	12	1250	1.2		0	0	27.6	5.1	27.5	1.1			0	running	pass	
+mobcolvr_EN2015_05_Bomb_SubspeciesEnd2_00	boss	1.0	8	496	1.2		0	0	31.7	10.6	0.2	-0.3			0	running	pass	
+mobcolvr_EN2225_01_DeathClaw_SubspeciesEnd2_00	boss	1.1	11	1302	1.1		0	0	13.9	5.9	13.1	0.5			0	running	pass	
+mobcolvr_EN2230_00_Joker_StandardEnd2_00		1.1	8	496	1.2		1	0	15.3	6.9	20.2	0.3			0	running	pass	
+mobcolvr_EN2000_10_GuardHound_TestZeroEnd2_00		1.1	8	496	1.2		0	0	16.3	6.4	1.4	-0.2			0	running	pass	
+mobcolvr_EN2000_10_GuardHound_TestZeroAnotherVoiceEnd2_00		0.4	10	808	1.2		0	0	7.1	6.3	0.0	-0.2		EN2000_10	0	running	pass	
+mobcolvr_EN2217_00_Grangalan_StandardEnd2_00		1.2	8	496	1.2		0	0	6.7	1.9	4.3	0.0			0	running	pass	
+mobcolvr_EN2217_01_Grangalan_ChildEnd2_00		0.4	2	76	21.0		0	0	3.2	3.7	7.7	-0.2		EN2217_02	0	running	pass	
+mobcolvr_EN2217_02_Grangalan_GrandchildEnd2_00		0.5	2	284	11.3		0	0	2.8	5.9	11.3	-0.4			0	running	pass	
+mobcolvr_EN2236_00_KimaraBug_StandardEnd2_00		8.6	3	283	2.7		0	0	16.5	4.6	16.6	0.0		EN2217_02 EN2236_00	0	running	pass	
+mobcolvr_EN2236_02_KimaraBug_GongagaEnd2		1.1	1	287	12.5		0	0	9.3	2.1	4.3	0.0			0	running	pass	
+mobcolvr_EN2231_02_GrandHorn_SavageEnd2_00		1.1	1	171	18.1		0	0	4.3	4.0	11.7	1.1			0	running	pass	
+mobcolvr_EN2237_00_HeavyTank_StandardEnd2_00		1.0	3	892	2.6		1	0	9.8	5.7	9.8	1.1			0	running	pass	
+mobcolvr_EN2233_00_TouchMe_StandardEnd2_00		1.1	2	172	3.9		0	0	14.6	2.9	9.3	-0.5			0	running	pass	
+mobcolvr_EN2232_00_Gagighandi_StandardEnd2_00		1.1	2	140	4.0		0	0	9.8	2.8	14.1	0.6			0	running	pass	
+mobcolvr_EN2231_00_GrandHorn_StandardEnd2_00		1.2	2	165	4.1		0	0	8.6	12.2	6.6	0.5			0	running	pass	
+mobcolvr_EN2231_01_GrandHorn_RareEnd2_00		1.3	4	410	5.4		0	0	21.2	1.4	27.9	0.8			0	running	pass	
+mobcolvr_EN2232_01_Gagighandi_RareEnd2_00		1.1	2	210	1.2		0	0	29.0	2.3	31.1	0.6			0	running	pass	
+mobcolvr_EN2233_01_TouchMe_RareEnd2_00		1.2	2	402	4.0		0	0	26.2	4.7	20.0	-0.5			0	running	pass	
+mobcolvr_EN2100_02_Levrikon_SubspeciesEnd2_00	boss	1.1	3	652	7.0		0	0	10.8	11.1	6.3	0.6			0	running	pass	
+mobcolvr_EN2206_02_Elfadunk_SubspeciesEnd2_00		1.8	2	821	5.5		0	0	3.0	10.2	12.9	1.5			0	running	pass	
+mobcolvr_EN2235_00_Gigantoad_StandardEnd2_00	boss	1.0	2	479	1.2		0	0	5.8	5.1	12.2	1.3			0	running	pass	
+mobcolvr_EN1008_00_StunRay_Standard_00		1.1	4	130	4.0		1	0	13.4	6.8	4.2	-0.2			0	running	pass	
+mobcolvr_EN2208_01_Crawler_NidhoggEnd2_00		1.3	7	390	2.6		0	0	6.6	5.4	8.2	0.0			0	running	pass	
+mobcolvr_EN2226_00_2Faced_StandardEnd2_00		1.1	8	395	1.2		0	0	9.3	4.2	10.8	-0.2			0	running	pass	
+mobcolvr_EN2245_00_Stinger_StandardEnd2_00		1.1	11	563	1.2		0	0	7.1	4.3	14.3	0.8			0	running	pass	
+mobcolvr_EN2244_00_GiSpector_StandardEnd2_00		1.0	8	336	1.2		0	0	20.6	6.4	0.0	0.5			0	running	pass	
+mobcolvr_EN2244_00_GiSpector_SpearEnd2_00		1.2	5	332	3.9		0	0	2.5	8.3	5.7	0.5			0	running	pass	
+mobcolvr_EN2244_00_GiSpector_WandEnd2_00		1.0	6	252	3.9		0	0	6.6	8.1	7.2	0.5			0	running	pass	
+mobcolvr_EN2244_00_GiSpector_BowEnd2_00		1.1	5	210	3.9		0	0	2.2	5.5	7.6	0.5			0	running	pass	
+mobcolvr_EN3004_01_Zenene_SneakyStepEnd2_00		1.2	9	498	1.2		0	0	3.8	3.9	8.6	0.0			0	running	pass	
+mobcolvr_EN2241_00_Bagrisk_StandardEnd2_00		1.3	8	382	1.2		1	0	14.5	2.5	11.4	1.3			0	running	pass	
+mobcolvr_EN2238_00_Skeeskee_StandardEnd2_00		1.1	9	406	1.2		0	0	13.2	6.9	7.9	0.0			0	running	pass	
+mobcolvr_EN2009_02_Sahagin_DesertEnd2_00		1.1	9	656	1.2		0	0	17.1	7.0	12.7	0.2			0	running	pass	
+mobcolvr_EN2239_00_Griffin_StandardEnd2_00		1.1	7	412	1.2		0	0	18.0	14.3	3.8	0.3			0	running	pass	
+mobcolvr_EN2240_00_Golem_StandardEnd2_00		1.1	2	260	4.0		0	0	18.1	7.2	14.8	1.1			0	running	pass	
+mobcolvr_EN2009_03_Sahagin_DesertRareEnd2_00		1.2	2	279	3.9		0	0	20.7	3.7	9.2	0.2			0	running	pass	
+mobcolvr_EN2238_01_Skeeskee_RareEnd2_00		1.1	2	584	5.4		0	0	7.3	7.6	14.5	0.0			0	running	pass	
+mobcolvr_EN2239_01_Griffin_RareEnd2_00	boss	1.1	2	205	6.8		0	0	20.1	3.2	14.1	1.1			0	running	pass	
+mobcolvr_EN2240_01_Golem_RareEnd2_00		1.1	5	370	1.2		1	0	17.3	4.5	16.8	1.1			0	running	pass	
+mobcolvr_EN2241_01_Bagrisk_RareEnd2_00		1.0	2	241	9.5		0	0	20.9	11.4	31.8	0.0			0	running	pass	
+mobcolvr_EN2227_02_LandWorm_SubspeciesEnd2_00	boss	1.3	2	530	6.9		0	0	22.4	10.3	28.9	2.6			0	running	pass	
+mobcolvr_EN2237_01_HeavyTank_SubspeciesEnd2_00		1.1	2	1239	4.0		0	0	22.6	6.3	26.6	1.1			0	running	pass	
+mobcolvr_EN2242_00_Reapertail_StandardEnd2_00		1.3	2	461	5.7		0	0	33.6	4.7	25.4	1.0			0	running	pass	
+mobcolvr_EN2243_00_Jabberwock_StandardEnd2_00	boss	0.6	2	515	3.9		0	0	22.1	9.7	21.6	2.1			0	running	pass	
+mobcolvr_EN2222_01_SearchCrown_BatteryCapEnd2_00		1.1	1	54	16.4		0	0	30.6	17.6	0.0	1.4			0	running	pass	
+mobcolvr_EN2000_08_GuardHound_NibelWolfEnd2_00		1.2	2	608	4.0		1	0	17.5	3.3	21.3	-0.2			0	running	pass	
+mobcolvr_EN2246_00_Valron_StandardEnd2_00		1.1	2	100	5.3		0	0	25.4	10.6	24.3	0.9			0	running	pass	
+mobcolvr_EN2247_00_VelcherTask_StandardEnd2_00		1.3	3	265	5.3		0	0	24.0	4.1	28.2	0.6			0	running	pass	
+mobcolvr_EN2000_09_GuardHound_NibelWolfRareEnd2_00		1.1	2	285	8.2		0	0	31.5	3.6	28.0	-0.2			0	running	pass	
+mobcolvr_EN2200_01_Zuu_RareEnd2_00	boss	1.1	2	392	4.0		0	0	19.5	13.8	30.3	0.2			0	running	pass	
+mobcolvr_EN2203_01_Kyuvilduns_RareEnd2_00		1.1	1	372	13.8		0	0	19.0	5.9	31.5	-0.5			0	running	pass	
+mobcolvr_EN2246_01_Valron_RareEnd2_00		1.1	2	133	20.9		0	0	32.6	11.9	6.3	1.3			0	running	pass	
+mobcolvr_EN2247_01_VelcherTask_RareEnd2_00	boss	1.1	4	502	2.6		0	0	3.9	6.5	7.7	1.1			0	running	pass	
+mobcolvr_EN2223_01_Bagnadrana_SubspeciesEnd2_00		1.0	3	477	1.2		0	0	16.0	4.7	22.3	0.6			0	running	pass	
+mobcolvr_EN2236_01_KimaraBug_SubspeciesEnd2_00		1.1	2	268	5.2		0	0	25.4	2.6	25.4	0.4			0	running	pass	
+mobcolvr_EN2248_00_KillerBee_StandardEnd2_00	boss	1.1	2	309	4.0		0	0	27.5	7.3	23.5	0.3			0	running	pass	
+mobcolvr_EN2248_01_KillerBee_ChildEnd2		0.5	2	162	6.7		0	0	27.4	4.8	34.5	0.3			0	running	pass	
+mobcolvr_EN2200_04_Zuu_KingEnd2_00	boss	1.3	2	763	4.1		1	0	21.2	7.4	32.3	0.3			0	running	pass	
+mobcolvr_EN2101_05_HereticRayleigh_SubspeciesEnd2_00	boss	1.1	2	957	1.2		0	0	25.2	26.6	1.4	1.6			0	running	pass	
+mobcolvr_EN2202_00_Dragon_StandardEnd2_00	boss	1.1	2	686	6.8		0	0	27.0	5.6	19.0	1.0			0	running	pass	
+mobcolvr_EN2250_00_BlackBat_StandardEnd2_00		1.1	2	170	5.5		0	0	22.3	7.2	29.4	0.3			0	running	pass	
+mobcolvr_EN2249_00_BahbaVelamyu_StandardEnd2_00		1.2	1	465	12.7		0	20	23.3	6.1	22.1	0.0			0	running	pass	
+mobcolvr_EN3203_00_DorkyFace_StandardEnd2_00		1.1	6	504	13.6		0	0	19.3	1.7	21.6	0.0			0	running	pass	
+mobcolvr_EN3204_00_YingYang_StandardEnd2_00		1.2	4	330	9.6		0	0	20.9	2.1	22.0	0.4			0	running	pass	
+mobcolvr_EN0007_02_Soldier3rd_LoccheSEnd2_00		1.1	4	365	1.2		0	0	23.3	3.6	19.3	0.0			0	running	pass	
+mobcolvr_EN3205_00_Jersey_StandardEnd2_00		1.1	2	172	8.2		0	0	22.8	8.7	30.5	0.3			0	running	pass	
+mobcolvr_EN2233_02_TouchMe_ToxicFrogEnd2_00		1.1	2	183	3.9		1	0	19.6	1.3	22.9	-0.5			0	running	pass	
+mobcolvr_EN2251_00_Slaps_StandardEnd2_00		1.1	2	33	9.5		0	0	21.3	17.2	30.6	0.8			0	running	pass	
+mobcolvr_EN0000_05_SecuritySoldier_SpecialForcesEnd2_00		1.1	4	247	2.6		0	0	19.1	9.9	10.7	0.0			0	running	pass	
+mobcolvr_EN2232_02_Gagighandi_UnderLizardEnd2_00		1.1	2	288	1.2		0	0	20.2	3.3	21.4	0.6			0	running	pass	
+mobcolvr_EN2255_00_8eye_StandardEnd2_00		1.1	1	60	17.0		0	0	23.7	11.8	10.4	1.1			0	running	pass	
+mobcolvr_EN0007_03_Soldier3rd_2ndEnd2_00		1.2	2	807	1.2		0	0	21.5	21.9	2.8	0.0			0	running	pass	
+mobcolvr_EN1008_06_StunRay_GroundtypeEnd2_00		1.1	2	1496	9.7		0	0	22.8	8.7	20.9	-0.2			0	running	pass	
+mobcolvr_EN2209_02_ArkDragon_AncientEnd2_00		1.2	6	380	5.3		0	0	5.0	9.5	14.2	2.9			0	running	pass	
+mobcolvr_EN2252_00_Kelzmelzer_StandardEnd2_00		1.2	6	600	1.2		1	0	5.4	1.8	8.1	0.0			0	running	pass	
+mobcolvr_EN2254_00_Doorbull_StandardEnd2_00		1.1	2	764	2.7		0	0	5.5	2.5	12.1	1.1			0	running	pass	
+mobcolvr_EN2256_00_Adamantaimai_StandardEnd2_00	boss	1.1	2	1302	15.4		0	0	8.1	5.3	21.2	2.1			0	running	pass	
+mobcolvr_EN2257_00_IronMan_StandardEnd2_00	boss	1.1	2	1104	5.6		0	0	9.7	7.5	5.4	1.1			0	running	pass	
+mobcolvr_EN2258_01_Allemagne_SubspeciesEnd2_00		1.1	2	480	9.8		1	0	8.4	4.9	6.0	1.3			0	running	pass	
+mobcolvr_EN0201_00_Goblin_StandardEnd2_00	boss	1.1	2	490	2.5		0	0	11.0	2.0	5.7	0.0			0	running	pass	
+mobcolvr_SU2000_00_Titan_Standard_00	boss	1.3	4	742	4.4		0	0	10.2	3.9	14.0	2.1			0	running	pass	
+mobcolvr_SU2040_01_Phoenix_Standard_00	boss	1.2	2	831	16.6		0	0	19.2	8.8	26.2	-0.0		EN2210_00 FA0052_08	0	running	pass	
+mobcolvr_SU2030_01_Alexander_Standard_00	boss	1.2	2	287	1.2		0	0	18.5	10.1	0.0	4.5			0	running	pass	
+mobcolvr_SU2020_01_Kjata_Standard_00	boss	1.2	5	1924	2.7		1	0	13.5	6.3	29.0	3.1			0	running	pass	
+mobcolvr_SU2050_01_NeoBahamut_Standard_00	boss	1.2	2	303	4.0		0	0	24.9	2.7	29.2	2.1			0	running	pass	
+mobcolvr_SU2015_00_Sleipnir_Standard_00	boss	1.1	1	487	6.8		0	0	30.7	11.0	35.0	1.6			0	running	pass	
+mobcolvr_SU2000_01_Titan_GilQuest_00	boss	1.2	2	438	8.7		0	0	19.1	5.8	20.0	2.1			0	running	pass	
+mobcolvr_SU2050_01_NeoBahamut_GilQuest_00	boss	1.2	3	449	2.8		0	0	25.2	2.7	27.1	2.1			0	running	pass	
+mobcolvr_SU2040_01_Phoenix_GilQuest_00	boss	1.1	2	631	1.2		0	0	28.0	12.2	21.5	-0.0		FA0052_08	0	running	pass	
+mobcolvr_SU2020_01_Kjata_GilQuest_00	boss	1.2	2	618	6.9		0	0	23.2	6.5	33.6	3.1			0	running	pass	
+mobcolvr_SU2030_01_Alexander_GilQuest_00	boss	1.2	2	786	5.2		1	0	5.1	10.3	0.0	4.5			0	running	pass	
+mobcolvr_SU2060_01_Gilgamesh_Standard_00	boss	1.9	4	828	2.6		0	0	19.3	5.9	37.1	0.9			0	running	pass	
+mobcolvr_SU2060_01_Gilgamesh_Hard_00	boss	0.4	3	873	2.6		0	0	22.2	19.4	6.8	0.9			0	running	pass	
+mobcolvr_EN2231_00_GrandHorn_Phoenix_00		0.4	1	103	16.7		0	0	25.0	9.4	22.1	0.5			0	running	pass	
+mobcolvr_EN2210_00_Flan_Phoenix_00		0.4	1	108	15.4		0	0	5.6	8.2	2.5	0.0			0	running	pass	
+mobcolvr_EN2211_00_Ogre_Phoenix_00		0.4	2	426	4.0		0	0	10.3	6.6	9.8	0.7			0	running	pass	
+mobcolvr_EN2201_00_Formula_Phoenix_00		0.4	2	325	12.7		0	0	15.0	6.1	27.2	2.5			0	running	pass	
+mobcolvr_EN2209_00_ArkDragon_Phoenix_00		0.4	2	425	8.3		1	0	20.8	2.7	21.8	0.6			0	running	pass	
+mobcolvr_EN2211_02_Ogre_SubspeciesEnd2_00	boss	1.3	2	375	4.1		0	0	18.6	7.6	19.4	0.7			0	running	pass	
+mobcolvr_EN2207_03_Quetzalcoatl_SubspeciesEnd2_00	boss	1.1	3	1293	1.2		0	0	26.3	5.7	20.8	1.1			0	running	pass	
+mobcolvr_EN2246_02_Valron_SubspeciesEnd2_00	boss	1.1	4	1238	3.9		0	0	29.5	5.9	38.1	2.5			0	running	pass	
+mobcolvr_EN2202_01_Dragon_SubspeciesEnd2_00	boss	2.5	2	1642	8.1		1	0	32.6	8.8	25.2	1.0			0	running	pass	
+mobcolvr_PC0010_20_Sephiroth_VRHard_00	boss	1.2	5	497	4.1		0	0	3.9	5.4	12.6	0.0			0	running	pass	
+mobcolvr_EN0008_05_Vice_UniqueVariationA_00		1.1	3	282	7.0		0	0	26.6	1.2	25.4	0.0			0	running	pass	
+mobcolvr_EN2204_00_Mu_StandardEnd2_00		1.3	2	5	27.7		0	0	26.6	23.9	12.1	-0.4			0	running	pass	
+mobcolvr_EN0001_01_GrenadeSoldier_Senior_00		1.1	3	156	13.8		0	0	26.6	10.3	17.1	0.0			0	running	pass	
+mobcolvr_EN0001_04_GrenadeSoldier_SeniorVer1End2_00		1.1	11	626	1.2		0	0	26.6	12.2	14.3	0.0			0	running	pass	
+mobcolvr_EN0001_05_GrenadeSoldier_SeniorVer2End2_00		1.1	3	163	13.9		0	0	26.6	9.9	17.5	0.0			0	running	pass	
+mobcolvr_EN0001_03_GrenadeSoldier_SeniorJunonEnd2_00		1.1	11	418	1.2		0	0	26.6	11.9	14.6	0.0			0	running	pass	
+mobcolvr_EN0002_09_ShieldSoldier_JunonVer2End2_00		1.3	2	20	1.2		0	0	26.6	3.2	23.3	0.0			0	running	pass	
+mobcolvr_EN2003_03_PuzoCute_TropicalRareEnd2_G3_00		1.1	2	224	1.2		0	0	26.4	27.9	21.1	3.1			0	running	pass	
+mobcolvr_EN2017_02_Tonberry_KingEnd2_00	boss	1.1	3	3	14.0		0	0	26.6	21.4	5.3	0.8			0	running	pass	
+mobcolvr_EN0009_21_CorneoLackey_GreedBEnd2_00		1.3	2	152	16.7		0	0	26.6	4.8	23.8	0.0			0	running	pass	
+mobcolvr_EN0009_22_CorneoLackey_GreedCEnd2_00		1.2	2	1474	13.7		1	0	26.7	15.1	17.1	0.0			0	running	pass	
+mobcolvr_EN2234_00_FlowerProng_StandardEnd2_00		1.1	2	142	25.4		0	0	26.7	26.7	0.0	2.2			0	running	pass	
+mobcolvr_EN2234_03_FlowerProng_RareEnd2_00		1.1	8	392	1.2		0	0	26.7	26.7	0.0	2.2			0	running	pass	
+mobcolvr_EN2016_01_Morbol_GreatEnd2_00	boss	1.2	9	378	1.2		0	0	26.8	7.8	19.5	3.1			0	running	pass	
+mobcolvr_EN3202_00_Bioweapon_StandardEnd2_00		1.2	10	2049	1.2		1	0	26.6	1.9	25.0	0.6			0	running	pass	
+mobcolvr_EN2258_00_Allemagne_StandardEnd2_00		1.1	8	496	1.2		0	0	28.0	15.3	12.7	1.3			0	running	pass	
+mobcolvr_EN2017_00_Tonberry_Standard_00		0.4	9	1032	1.2		0	0	26.9	24.9	2.3	-0.4			0	running	pass	
+mobcolvr_SU2015_01_Sleipnir_GilQuest_00	boss	1.1	8	496	1.2		0	0	26.8	15.5	13.2	1.6			0	running	pass	
+mobcolvr_EN2015_00_Bomb_Phoenix_00		0.4	8	496	1.2		0	0	26.9	10.9	16.2	-0.3			0	running	pass	
+mobcolvr_EN9999_00_MikataTest_Standard_00		1.1	9	558	1.2		0	0	26.9	26.7	0.2	-0.3			0	running	pass	
+mobcolvr_EN2017_00_Tonberry_Standard_VR		0.4	0	0			0	0	7.8	2.0	12.8	-0.4			0	running	never hit Cloud	

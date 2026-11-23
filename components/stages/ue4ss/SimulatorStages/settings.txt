@@ -1,0 +1,26 @@
+# Simulator Stages settings. Read again each time they are needed, so no restart.
+
+# false leaves the simulator as the game ships it
+enabled = true
+
+# select  offer a course's stages when you select the course
+# key     offer them only when you press F7 on a course
+# off     no picker: courses use the stage last chosen for them
+picker = select
+
+# false offers every stage, unlocked or not (for testing)
+require_unlock = true
+
+# true also offers the stages that are not working yet (the arena stages)
+experimental = false
+
+# Raise the stage under the fight, in centimetres
+lift_cm = 0
+
+# Development
+# stream brings a stage to the simulator; move takes the simulator to an open-world stage (not working yet)
+route = stream
+# which parts of the move route run (relocate, unhide, dressing, sky); dressing also applies when streaming
+steps = relocate,unhide,dressing,sky
+# use this stage for every course, whatever was chosen
+force_stage =

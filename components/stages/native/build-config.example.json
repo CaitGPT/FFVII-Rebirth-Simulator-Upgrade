@@ -1,0 +1,9 @@
+{
+  "_about": "Copy to build-config.local.json (ignored by git) and set the paths on your machine. <ue4ss> is a folder holding the UE4SS 3.0.1 C++ template checkout (RE-UE4SS), the UEPseudo sources it uses and its header dependencies. Junon Colosseum's build config works as it is.",
+  "CMake": "C:/Program Files/CMake/bin/cmake.exe",
+  "Ue4ssSource": "<ue4ss>/UE4SSCPPTemplate/RE-UE4SS",
+  "UEPseudoSource": "<ue4ss>/UEPseudo",
+  "ImguiSource": "<ue4ss>/header-deps/imgui",
+  "ImguiTextEditSource": "<ue4ss>/header-deps/ImGuiColorTextEdit",
+  "Ue4ssImportLib": "<a UE4SS 3.0.1 build>/UE4SS.lib"
+}

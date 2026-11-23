@@ -1,0 +1,246 @@
+{
+ "tables": [
+  {
+   "asset": "DataObject/Resident/EnemyTerritory.uasset",
+   "rows": [
+    {
+     "name": "terVR_COL30_Gen_00_010",
+     "set": {
+      "FieldAINameList_Array": [
+       "Stay"
+      ],
+      "MobTemplateList_Array": [
+       "mobcolvr_EN2001_02_WereRat_Poison_00"
+      ],
+      "MinPopList_Array": [
+       "1"
+      ],
+      "MaxPopList_Array": [
+       "1"
+      ],
+      "MobLevelList_Array": [
+       "30"
+      ],
+      "WaveMobTemplateList_Array": [
+       "mobcolvr_EN2200_00_Zuu_StandardEnd2_00",
+       "mobcolvr_EN2201_03_Formula_SonicSpeedEnd2_00",
+       "mobcolvr_EN2203_00_Kyuvilduns_StandardEnd2_00",
+       "mobcolvr_EN3001_03_VagidPolice_TwinBrainEnd2_00",
+       "mobcolvr_EN3200_00_Screamer_StandardEnd2_00",
+       "mobcolvr_EN0008_00_Vice_Standard_Scimitar_00",
+       "mobcolvr_EN0008_00_Vice_Standard_IronPipe_00",
+       "mobcolvr_EN0008_01_Vice_VariationA_Axe_00",
+       "mobcolvr_EN0008_02_Vice_VariationB_00",
+       "mobcolvr_EN0008_02_Vice_VariationB_SpikedBat_00",
+       "mobcolvr_EN0008_04_Vice_UniqueStandard_00",
+       "mobcolvr_EN0008_05_Vice_UniqueVariationA_00",
+       "mobcolvr_EN0008_06_Vice_UniqueVariationB_00",
+       "mobcolvr_EN0010_00_ViceWrestler_Standard_00",
+       "mobcolvr_EN0200_00_DevilRide_StandardEnd2_00",
+       "mobcolvr_EN1001_03_Sweeper_CustomEnd2_00",
+       "mobcolvr_EN2001_02_WereRat_Poison_00",
+       "mobcolvr_EN2001_03_WereRat_PoisonRareEnd2_00",
+       "mobcolvr_EN2100_00_Levrikon_Standard_00",
+       "mobcolvr_EN2100_01_Levrikon_RareEnd2_00",
+       "mobcolvr_EN2000_05_GuardHound_KalmFangEnd2_00",
+       "mobcolvr_EN2000_06_GuardHound_KalmFangRareEnd2_00",
+       "mobcolvr_EN2000_07_GuardHound_KalmFangSubspeciesEnd2_00",
+       "mobcolvr_EN2008_02_Ceasar_CastanetsEnd2_00",
+       "mobcolvr_EN2204_00_Mu_StandardEnd2_00",
+       "mobcolvr_EN2204_01_Mu_RareEnd2_00",
+       "mobcolvr_EN2205_00_Mandragora_StandardEnd2_00",
+       "mobcolvr_EN2205_01_Mandragora_RareEnd2_00",
+       "mobcolvr_EN2206_00_Elfadunk_StandardEnd2_00",
+       "mobcolvr_EN2206_01_Elfadunk_RareEnd2_00",
+       "mobcolvr_EN2207_00_Quetzalcoatl_StandardEnd2_00",
+       "mobcolvr_EN2208_00_Crawler_StandardEnd2_00",
+       "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_00",
+       "mobcolvr_EN2209_00_ArkDragon_StandardEnd2_01",
+       "mobcolvr_EN2210_00_Flan_StandardEnd2_00",
+       "mobcolvr_EN2211_00_Ogre_StandardEnd2_00",
+       "mobcolvr_EN2211_01_Ogre_OrcEnd2_00",
+       "mobcolvr_EN2220_00_NeedleKiss_StandardEnd2_00",
+       "mobcolvr_EN2222_02_SearchCrown_BatteryCapRareEnd2_00",
+       "mobcolvr_EN0000_00_SecuritySoldier_Standard_00"
+      ],
+      "WaveMobLevelList_Array": [
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30",
+       "30"
+      ],
+      "WavePopSettingList_Array": [
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      "WaveBattleSceneAerialEnemyFlag_Array": [
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "asset": "DataObject/Resident/ColosseumPositionData.uasset",
+   "rows": [
+    {
+     "name": "POS_Mod_SimOverhaul_CT_010",
+     "cloneFrom": "POS_COL30_Sum_00_010",
+     "set": {}
+    }
+   ]
+  },
+  {
+   "asset": "DataObject/Resident/Colosseum.uasset",
+   "rows": [
+    {
+     "name": "COL99_SimOverhaul_CT_Probe_vr",
+     "cloneFrom": "COL30_GRASA_01_Free_vr",
+     "set": {
+      "EnemyTerritoryID_Array": [
+       "terVR_COL30_Gen_00_010"
+      ],
+      "BattleScenePosDataID_Array": [
+       "POS_Mod_SimOverhaul_CT_010"
+      ],
+      "UserBattleInSequencerNames_Array": [
+       "CSA_VrCoBattleIn_Common"
+      ],
+      "BattleMax": "1",
+      "DisplayFlagID_Array": [
+       "stf1210_CHOFA_VROpen_Gras"
+      ],
+      "OpenFlagID_Array": [
+       "stf1210_CHOFA_VROpen_Gras"
+      ],
+      "OpenConditionClearCheckID": "",
+      "OpenConditionTextID": "",
+      "OpenConditionClearCheckID01": "",
+      "OpenConditionTextID01": "",
+      "PreNotifyActionOrActionGroupID": "",
+      "CourseSelectStateTriggerID": "",
+      "RewardID": "",
+      "ClearFlagID": "",
+      "PlayLogClearFlagID": "",
+      "TabCategory": "7",
+      "TimerSaveArrayIndex": "192",
+      "DifficultyHardChangeToNormal": "1"
+     }
+    }
+   ]
+  }
+ ]
+}

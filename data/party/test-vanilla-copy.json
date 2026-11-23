@@ -1,0 +1,96 @@
+{
+  // party workstream, proof on copies of a vanilla course (not shipped).
+  // Four courses cloned from COL30_GRASA_01_Free_vr (one round), each a
+  // different way of putting Zack and Sephiroth in the party:
+  //   T1  EntryMember_Array = all nine playable members, PartyMax 3
+  //       (does the list act as a pool to pick from?)
+  //   T2  EntryMember_Array = [Zack], PartyMax 3 (one fixed, two picked?)
+  //   T3  EntryMember_Array = [Cloud, Zack, Sephiroth], PartyMax 3 (fixed trio)
+  //   T4  EntryMember_Array = [Zack, Sephiroth], PartyMax 2 (fixed pair, no Cloud)
+  //   T5  EntryMember_Array empty (as Custom Training's row), ExtendedSequenceBits 6
+  //   T6  EntryMember_Array empty, ExtendedSequenceBits 0 (control for T5)
+  // T5 stands in for the Custom Training row: its team list offers the party plus
+  // Sephiroth and Zack by ExtendedSequenceBits alone (docs/workstreams/party.md).
+  // ExtendedSequenceBits: vanilla Zack courses use 4, Sephiroth courses 2.
+  // Built on Junon Colosseum's installed Colosseum table (which carries
+  // Training Dummy's rows) so the test pak drops no installed course.
+  "tables": [
+    {
+      "asset": "DataObject/Resident/Colosseum.uasset",
+      "rows": [
+        { "name": "COL99_Mod_SimOverhaul_Party_T1", "cloneFrom": "COL30_GRASA_01_Free_vr",
+          "set": { "EnemyTerritoryID_Array": ["terVR_COL30_GRASA_01_010"], "BattleScenePosDataID_Array": ["POS_COL30_GRASA_01_010"],
+                   "UserBattleInSequencerNames_Array": ["CSA_VrCoBattleIn_Common"], "BattleMax": "1",
+                   "DisplayFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"], "OpenFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"],
+                   "OpenConditionClearCheckID": "", "OpenConditionTextID": "", "OpenConditionClearCheckID01": "", "OpenConditionTextID01": "",
+                   "PreNotifyActionOrActionGroupID": "", "CourseSelectStateTriggerID": "",
+                   "RewardID": "", "ClearFlagID": "", "PlayLogClearFlagID": "",
+                   "ItemName": "$menu_Colosseum_CourseTitle_COL1Z_TutorialBtl_01", "DisplayItemName": "$menu_Colosseum_CourseTitle_COL1Z_TutorialBtl_01",
+                   "FlavorTextID": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_Party_T1", "DisplayFlavorItemName": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_Party_T1",
+                   "EntryMember_Array": ["pt_Cloud","pt_Barret","pt_Tifa","pt_Aerith","pt_RedXIII","pt_Yuffie","pt_CaitSith","pt_Zack","pt_Sephiroth"],
+                   "PartyMax": "3", "ExtendedSequenceBits": "6",
+                   "TabCategory": "7", "TimerSaveArrayIndex": "161", "DifficultyHardChangeToNormal": "1" } },
+        { "name": "COL99_Mod_SimOverhaul_Party_T2", "cloneFrom": "COL30_GRASA_01_Free_vr",
+          "set": { "EnemyTerritoryID_Array": ["terVR_COL30_GRASA_01_010"], "BattleScenePosDataID_Array": ["POS_COL30_GRASA_01_010"],
+                   "UserBattleInSequencerNames_Array": ["CSA_VrCoBattleIn_Common"], "BattleMax": "1",
+                   "DisplayFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"], "OpenFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"],
+                   "OpenConditionClearCheckID": "", "OpenConditionTextID": "", "OpenConditionClearCheckID01": "", "OpenConditionTextID01": "",
+                   "PreNotifyActionOrActionGroupID": "", "CourseSelectStateTriggerID": "",
+                   "RewardID": "", "ClearFlagID": "", "PlayLogClearFlagID": "",
+                   "ItemName": "$menu_Colosseum_CourseTitle_COL30_EXTRA_15", "DisplayItemName": "$menu_Colosseum_CourseTitle_COL30_EXTRA_15",
+                   "FlavorTextID": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_Party_T2", "DisplayFlavorItemName": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_Party_T2",
+                   "EntryMember_Array": ["pt_Zack"],
+                   "PartyMax": "3", "ExtendedSequenceBits": "4",
+                   "TabCategory": "7", "TimerSaveArrayIndex": "162", "DifficultyHardChangeToNormal": "1" } },
+        { "name": "COL99_Mod_SimOverhaul_Party_T3", "cloneFrom": "COL30_GRASA_01_Free_vr",
+          "set": { "EnemyTerritoryID_Array": ["terVR_COL30_GRASA_01_010"], "BattleScenePosDataID_Array": ["POS_COL30_GRASA_01_010"],
+                   "UserBattleInSequencerNames_Array": ["CSA_VrCoBattleIn_Common"], "BattleMax": "1",
+                   "DisplayFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"], "OpenFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"],
+                   "OpenConditionClearCheckID": "", "OpenConditionTextID": "", "OpenConditionClearCheckID01": "", "OpenConditionTextID01": "",
+                   "PreNotifyActionOrActionGroupID": "", "CourseSelectStateTriggerID": "",
+                   "RewardID": "", "ClearFlagID": "", "PlayLogClearFlagID": "",
+                   "ItemName": "$menu_Colosseum_CourseTitle_COL30_EXTRA_14", "DisplayItemName": "$menu_Colosseum_CourseTitle_COL30_EXTRA_14",
+                   "FlavorTextID": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_Party_T3", "DisplayFlavorItemName": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_Party_T3",
+                   "MemberSelectionTextID_Array": ["$menu_Colosseum_CourseRule_CloudSephiroth_Only"],
+                   "EntryMember_Array": ["pt_Cloud","pt_Zack","pt_Sephiroth"],
+                   "PartyMax": "3", "ExtendedSequenceBits": "6",
+                   "TabCategory": "7", "TimerSaveArrayIndex": "192", "DifficultyHardChangeToNormal": "1" } },
+        { "name": "COL99_Mod_SimOverhaul_Party_T4", "cloneFrom": "COL30_GRASA_01_Free_vr",
+          "set": { "EnemyTerritoryID_Array": ["terVR_COL30_GRASA_01_010"], "BattleScenePosDataID_Array": ["POS_COL30_GRASA_01_010"],
+                   "UserBattleInSequencerNames_Array": ["CSA_VrCoBattleIn_Common"], "BattleMax": "1",
+                   "DisplayFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"], "OpenFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"],
+                   "OpenConditionClearCheckID": "", "OpenConditionTextID": "", "OpenConditionClearCheckID01": "", "OpenConditionTextID01": "",
+                   "PreNotifyActionOrActionGroupID": "", "CourseSelectStateTriggerID": "",
+                   "RewardID": "", "ClearFlagID": "", "PlayLogClearFlagID": "",
+                   "ItemName": "$menu_Colosseum_CourseTitle_COL1S_TutorialBtl_01", "DisplayItemName": "$menu_Colosseum_CourseTitle_COL1S_TutorialBtl_01",
+                   "FlavorTextID": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_Party_T4", "DisplayFlavorItemName": "$menu_Colosseum_CourseFlavor_COL99_SimOverhaul_Party_T4",
+                   "MemberSelectionTextID_Array": ["$menu_Colosseum_CourseRule_CloudZack_Only"],
+                   "EntryMember_Array": ["pt_Zack","pt_Sephiroth"],
+                   "PartyMax": "2", "ExtendedSequenceBits": "6", "MemberCountTextID": "$menu_Colosseum_SystemWord_MemberCount_Pair",
+                   "TabCategory": "7", "TimerSaveArrayIndex": "194", "DifficultyHardChangeToNormal": "1" } },
+        { "name": "COL99_Mod_SimOverhaul_Party_T5", "cloneFrom": "COL30_GRASA_01_Free_vr",
+          "set": { "EnemyTerritoryID_Array": ["terVR_COL30_GRASA_01_010"], "BattleScenePosDataID_Array": ["POS_COL30_GRASA_01_010"],
+                   "UserBattleInSequencerNames_Array": ["CSA_VrCoBattleIn_Common"], "BattleMax": "1",
+                   "DisplayFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"], "OpenFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"],
+                   "OpenConditionClearCheckID": "", "OpenConditionTextID": "", "OpenConditionClearCheckID01": "", "OpenConditionTextID01": "",
+                   "PreNotifyActionOrActionGroupID": "", "CourseSelectStateTriggerID": "",
+                   "RewardID": "", "ClearFlagID": "", "PlayLogClearFlagID": "",
+                   "ItemName": "$menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5", "DisplayItemName": "$menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5",
+                   "FlavorTextID": "$menu_Colosseum_CourseFlavor_COL99_Mod_SimOverhaul_Party_T5", "DisplayFlavorItemName": "$menu_Colosseum_CourseFlavor_COL99_Mod_SimOverhaul_Party_T5",
+                   "ExtendedSequenceBits": "6",
+                   "TabCategory": "7", "TimerSaveArrayIndex": "195", "DifficultyHardChangeToNormal": "1" } },
+        { "name": "COL99_Mod_SimOverhaul_Party_T6", "cloneFrom": "COL30_GRASA_01_Free_vr",
+          "set": { "EnemyTerritoryID_Array": ["terVR_COL30_GRASA_01_010"], "BattleScenePosDataID_Array": ["POS_COL30_GRASA_01_010"],
+                   "UserBattleInSequencerNames_Array": ["CSA_VrCoBattleIn_Common"], "BattleMax": "1",
+                   "DisplayFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"], "OpenFlagID_Array": ["stf1210_CHOFA_VROpen_Gras"],
+                   "OpenConditionClearCheckID": "", "OpenConditionTextID": "", "OpenConditionClearCheckID01": "", "OpenConditionTextID01": "",
+                   "PreNotifyActionOrActionGroupID": "", "CourseSelectStateTriggerID": "",
+                   "RewardID": "", "ClearFlagID": "", "PlayLogClearFlagID": "",
+                   "ItemName": "$menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T6", "DisplayItemName": "$menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T6",
+                   "FlavorTextID": "$menu_Colosseum_CourseFlavor_COL99_Mod_SimOverhaul_Party_T6", "DisplayFlavorItemName": "$menu_Colosseum_CourseFlavor_COL99_Mod_SimOverhaul_Party_T6",
+                   "ExtendedSequenceBits": "0",
+                   "TabCategory": "7", "TimerSaveArrayIndex": "158", "DifficultyHardChangeToNormal": "1" } }
+      ]
+    }
+  ]
+}

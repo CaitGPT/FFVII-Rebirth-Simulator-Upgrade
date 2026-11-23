@@ -1,0 +1,909 @@
+{
+  "_about": "Simulator stages. Positions are centimetres, read from the game's level files on 2026-11-16 (docs/research/VR-STAGE-AND-ARENAS.md). Every stage is streamed: its levels are loaded so that its anchor (the fight centre at ground height, in its own map's coordinates) lands on the simulator's centre. kind world marks a stage in the open world, which can also be reached by moving the simulator (route = move). radius_m is the clear flat space assumed around the anchor, an estimate. levels come from tools/select_levels.py. Nothing here has been seen in the game yet.",
+  "vr_stage": {
+    "volume_label": "COMMON_VR",
+    "centre_point": "oblPointCmn_VrBattle_Center",
+    "floor_z": 0,
+    "player_start": [
+      590,
+      0,
+      2
+    ],
+    "enemy_start": [
+      -470,
+      0,
+      0
+    ],
+    "default_target": {
+      "EASTC": [
+        -200000,
+        -100000,
+        60000
+      ],
+      "WESTC": [
+        -200000,
+        -100000,
+        10000
+      ],
+      "GILGA": [
+        350000,
+        120000,
+        30000
+      ]
+    },
+    "volume_tag_prefix": {
+      "1000-": "EASTC",
+      "2000-": "WESTC",
+      "0100-": "GILGA",
+      "2350-": "GOLDS"
+    },
+    "dressing_classes": [
+      "BG0342_00_Floor_VR_C",
+      "BG1127_00_BlockPillar_Standard_C",
+      "BG1127_01_BlockPillar_Standard_C",
+      "BG1128_00_BlockWall_Standard_C",
+      "BG1128_01_BlockWall_Standard_C"
+    ],
+    "dressing_levels": [
+      "0000-COMON_VR_Light",
+      "0000-COMON_VR_Effect"
+    ],
+    "collision_level": "0000-COMON_VR_Terrain_Strip"
+  },
+  "stages": [
+    {
+      "id": "grasslands",
+      "name": "Grasslands",
+      "boss": "Quetzalcoatl",
+      "continent": "EASTC",
+      "region": "1100-MIDGA",
+      "territory": "Grassland_midgamob_15",
+      "centre": [
+        36535.375,
+        -46539.906
+      ],
+      "actor_z": 12569.869,
+      "ground_offset_z": -757.1,
+      "ground_spread_cm": 193,
+      "yaw": -52.889,
+      "wall_diameter": 8000,
+      "sky": {
+        "volume": "Sky_Grass",
+        "label": ""
+      },
+      "kind": "world",
+      "enabled": true,
+      "radius_m": 40.0,
+      "unlock": {
+        "flag": "stfWorldReport_Finish_GRASA_031"
+      },
+      "anchor": [
+        36535.375,
+        -46539.906,
+        11812.769
+      ],
+      "anchor_z_from": "ground summon point under the territory",
+      "levels": [
+        "/Game/Level/Game/Field/1100-MIDGA/Layout/1100-MIDGA_Grass_Terrain_Strip",
+        "/Game/Level/Game/Field/1100-MIDGA/Layout/1100-MIDGA_Other_Terrain_Strip",
+        "/Game/Level/Game/Field/1100-MIDGA/Layout/1100-MIDGA_Structure_Terrain_Strip",
+        "/Game/Level/Game/Field/1100-MIDGA/Layout/1100-MIDGA_Terrain_Strip",
+        "/Game/Level/Game/Field/1100-MIDGA/Layout/1100-MIDGA_Water_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 421,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "junon",
+      "name": "Junon",
+      "boss": "Mindflayer",
+      "continent": "EASTC",
+      "region": "1300-JUNOA",
+      "territory": "JunonEastArea_mob_13",
+      "centre": [
+        32406.582,
+        165563.703
+      ],
+      "actor_z": 428.659,
+      "ground_offset_z": -297.909,
+      "ground_spread_cm": 74,
+      "yaw": -128.265,
+      "wall_diameter": 3100,
+      "sky": {
+        "volume": "Sky_Junon",
+        "label": ""
+      },
+      "kind": "world",
+      "enabled": true,
+      "radius_m": 15.5,
+      "unlock": {
+        "flag": "stfWorldReport_Finish_JUNOA_026"
+      },
+      "anchor": [
+        32406.582,
+        165563.703,
+        130.75
+      ],
+      "anchor_z_from": "ground summon point under the territory",
+      "levels": [
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_11Grass_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_21Tree_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_22SideSeaTree_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_24FarTree_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_31NatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_32SideSeaNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_61Interior_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_62SideSeaInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_72SideSeaInside_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_Far_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_Light",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_Nature_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_SideSeaNature_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_SideSea_Effect",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_SideSea_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_Terrain_Strip",
+        "/Game/Level/Game/Field/1300-JUNOA/Layout/1300-JUNOA_Water_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 1147,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "corel",
+      "name": "Corel",
+      "boss": "Tonberry King",
+      "continent": "WESTC",
+      "region": "2200-CORLA",
+      "territory": "Corla_mob_07",
+      "centre": [
+        150267.625,
+        40601.063
+      ],
+      "actor_z": 1803.726,
+      "ground_offset_z": -870.0,
+      "ground_spread_cm": 12,
+      "yaw": 288.0,
+      "wall_diameter": 2900,
+      "sky": {
+        "volume": "Sky_SouthSea",
+        "label": ""
+      },
+      "kind": "world",
+      "enabled": true,
+      "radius_m": 14.5,
+      "unlock": {
+        "flag": "stfWorldReport_Finish_CORLA_031"
+      },
+      "anchor": [
+        150267.625,
+        40601.063,
+        933.726
+      ],
+      "anchor_z_from": "ground summon point under the territory",
+      "levels": [
+        "/Game/Level/Game/Field/2200-CORLA/Layout/2200-CORLA_22DesertLineTree_Terrain_Strip",
+        "/Game/Level/Game/Field/2200-CORLA/Layout/2200-CORLA_32DesertLineNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/2200-CORLA/Layout/2200-CORLA_DesertLineGrass_Terrain_Strip",
+        "/Game/Level/Game/Field/2200-CORLA/Layout/2200-CORLA_DesertLine_Terrain_Strip",
+        "/Game/Level/Game/Field/2200-CORLA/Layout/2200-CORLA_Effect",
+        "/Game/Level/Game/Field/2200-CORLA/Layout/2200-CORLA_Water_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 255,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "gongaga",
+      "name": "Gongaga",
+      "boss": "Great Malboro",
+      "continent": "WESTC",
+      "region": "2400-GONGA",
+      "territory": "Gongaga_west_mob_04",
+      "centre": [
+        -19867.688,
+        308897.375
+      ],
+      "actor_z": 2802.686,
+      "ground_offset_z": -209.715,
+      "ground_spread_cm": 14,
+      "yaw": 0.0,
+      "wall_diameter": 4400,
+      "sky": {
+        "volume": "Sky_SouthSea",
+        "label": ""
+      },
+      "kind": "world",
+      "enabled": true,
+      "radius_m": 22.0,
+      "unlock": {
+        "flag": "stfWorldReport_Finish_GONGA_026"
+      },
+      "anchor": [
+        -19867.688,
+        308897.375,
+        2592.971
+      ],
+      "anchor_z_from": "ground summon point under the territory",
+      "levels": [
+        "/Game/Level/Game/Field/2400-GONGA/Layout/2400-GONGA_04Ruins_Light",
+        "/Game/Level/Game/Field/2400-GONGA/Layout/2400-GONGA_04Ruins_Terrain_Strip",
+        "/Game/Level/Game/Field/2400-GONGA/Layout/2400-GONGA_14RuinsGrass_Terrain_Strip",
+        "/Game/Level/Game/Field/2400-GONGA/Layout/2400-GONGA_14RuinsStructure_Terrain_Strip",
+        "/Game/Level/Game/Field/2400-GONGA/Layout/2400-GONGA_24RuinsTree_Terrain_Strip",
+        "/Game/Level/Game/Field/2400-GONGA/Layout/2400-GONGA_34RuinsNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/2400-GONGA/Layout/2400-GONGA_Effect",
+        "/Game/Level/Game/Field/2400-GONGA/Layout/2400-GONGA_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 518,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "cosmo",
+      "name": "Cosmo Canyon",
+      "boss": "Jabberwock",
+      "continent": "WESTC",
+      "region": "2500-CSMOA",
+      "territory": "CsmoaSubjugation_mob_Ex",
+      "centre": [
+        -209585.0,
+        121425.0
+      ],
+      "actor_z": -26.0,
+      "ground_offset_z": -62.966,
+      "ground_spread_cm": 26,
+      "yaw": 5.0,
+      "wall_diameter": 3900,
+      "sky": null,
+      "kind": "world",
+      "enabled": true,
+      "radius_m": 19.5,
+      "unlock": {
+        "flag": "stfWorldReport_Finish_CSMOA_031"
+      },
+      "anchor": [
+        -209585.0,
+        121425.0,
+        -88.966
+      ],
+      "anchor_z_from": "ground summon point under the territory",
+      "levels": [
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_05ArchNature_Terrain_Strip",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_06Structure_Terrain_Strip",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_08Decal_Terrain_Strip",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_BakeEmissive",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_Effect",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_Light",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_Terrain_Strip",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_TimeSet_Around_Cloudy",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_TimeSet_Around_Day",
+        "/Game/Level/Game/Field/2500-CSMOA/Layout/2500-CSMOA_Water_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 447,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "nibel",
+      "name": "Nibel",
+      "boss": "King Zu",
+      "continent": "WESTC",
+      "region": "2600-NIBLA",
+      "territory": "NiblaEastArea_mob_Ex",
+      "centre": [
+        -141341.313,
+        -177373.75
+      ],
+      "actor_z": 1544.0,
+      "ground_offset_z": -993.902,
+      "ground_spread_cm": 20,
+      "yaw": 50.0,
+      "wall_diameter": 4000,
+      "sky": {
+        "volume": "Sky_Nibel",
+        "label": ""
+      },
+      "kind": "world",
+      "enabled": true,
+      "radius_m": 20.0,
+      "unlock": {
+        "flag": "stfWorldReport_Finish_NIBLA_025"
+      },
+      "anchor": [
+        -141341.313,
+        -177373.75,
+        550.098
+      ],
+      "anchor_z_from": "ground summon point under the territory",
+      "levels": [
+        "/Game/Level/Game/Field/2600-NIBLA/Layout/2600-NIBLA_04Island_Terrain_Strip",
+        "/Game/Level/Game/Field/2600-NIBLA/Layout/2600-NIBLA_08IslandNature_Terrain_Strip",
+        "/Game/Level/Game/Field/2600-NIBLA/Layout/2600-NIBLA_60Interior_Terrain",
+        "/Game/Level/Game/Field/2600-NIBLA/Layout/2600-NIBLA_64IslandInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/2600-NIBLA/Layout/2600-NIBLA_Terrain_Strip",
+        "/Game/Level/Game/Field/2600-NIBLA/Layout/2600-NIBLA_Water_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 133,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "lifestream",
+      "name": "Inside the Lifestream",
+      "boss": "Sephiroth (final battle, with Aerith)",
+      "kind": "streamed",
+      "enabled": true,
+      "radius_m": 200.0,
+      "unlock": {
+        "cleared": true
+      },
+      "levels": [
+        "/Game/Level/Game/Field/3120-CAPTL/Layout/LastBattle/3120-CAPTL_Sephiroth_6LastSpace_Terrain_Strip",
+        "/Game/Level/Game/Field/3120-CAPTL/Layout/LastBattle/3120-CAPTL_Sephiroth_6LastSpace_Light",
+        "/Game/Level/Game/Field/0001-WORLD/Layout/Lighting/Other/0001-WORLD_OtherSky_White"
+      ],
+      "anchor": [
+        -10000.0,
+        0.0,
+        100.0
+      ],
+      "sky_level": "/Game/Level/Game/Field/0001-WORLD/Layout/Lighting/Island/0001-WORLD_IslandSky_Galaxy",
+      "note": "Flat floor about 448 m square (25 water meshes that arrive hidden). Two skies: the white sky level first, for its brightness, with its own sun and fog kept off, then the Galaxy sky (the one the game's cutscene table names for this battle) for the stars; of the Galaxy sky's ten fog variants only the centre one is shown. The FarLand level is NOT loaded: it is a flat water plane up to 40 cm above the floor, and with it the party wades (owner, 2026-11-17). Its Gimmick level (a 25 m ring of dummy walls for the boss) and Sound level are left out; its Effect level is empty.",
+      "anchor_z_from": "measured in the game 2026-11-17: its collision floor is flat at z 100 (a capsule dropped on a grid)",
+      "seen": "2026-11-17: at anchor z 100 with its ambient light, reflection capture, fog volume and floor meshes shown it is the grey water of the Lifestream (owner: right). With the plain white sky it lacked the stars (owner); under the Galaxy sky the water is brighter and a starfield shows overhead.",
+      "show_classes": [
+        "EndEnvironmentStaticMeshActor"
+      ],
+      "sky_from": "the game's cutscene table: EV_FOREE_8790, the scene tied to this battle's levels, names 0001-WORLD_IslandSky_Galaxy as its sky (CutSceneList, 8800-FOREE). OtherSky_White was a guess and has no stars.",
+      "keep_hidden": [
+        "islandSky_Galaxy_ExponentialHeightFog_side_",
+        "islandSky_Galaxy_ExponentialHeightFog_olg",
+        "WhiteSky_DirectionalLight",
+        "WhiteSky_ExponentialHeightFog"
+      ]
+    },
+    {
+      "id": "space_rock",
+      "name": "Edge of Creation",
+      "boss": "Sephiroth Reborn (final battle, with Zack)",
+      "kind": "streamed",
+      "enabled": true,
+      "radius_m": 30.0,
+      "unlock": {
+        "cleared": true
+      },
+      "levels": [
+        "/Game/Level/Game/Field/3120-CAPTL/Layout/LastBattle/3120-CAPTL_Sephiroth_1Cosmo_Terrain_Strip",
+        "/Game/Level/Game/Field/3120-CAPTL/Layout/LastBattle/3120-CAPTL_Sephiroth_1Cosmo_Light",
+        "/Game/Level/Game/Field/3120-CAPTL/Layout/LastBattle/3120-CAPTL_Sephiroth_1Cosmo_Gimmick",
+        "/Game/Level/Game/Field/3120-CAPTL/Layout/LastBattle/3120-CAPTL_Sephiroth_1Cosmo_Effect",
+        "/Game/Level/Game/Field/3120-CAPTL/Layout/LastBattle/3120-CAPTL_34Sephiroth1CosmoNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/3120-CAPTL/Layout/LastBattle/FarLand/3120-CAPTL_Sephiroth_1Cosmo_Terrain_FarLand"
+      ],
+      "anchor": [
+        -41.25,
+        -9096.3,
+        110.0
+      ],
+      "sky_level": "/Game/Level/Game/Field/0001-WORLD/Layout/Lighting/Island/0001-WORLD_IslandSky_Space",
+      "note": "The platform is the skeletal ground piece BG2130_00 (five fragments) with 39 ground meshes on it, in the Gimmick level. Round it: the FarLand level, one low-detail mesh (9,622 vertices, 520 m by 440 m) of the whole island and the rocks floating about it, and four hidden rock effects in the Effect level, all kept at their true size and place. The far-land mesh's copy of the platform reaches 46 cm above the floor inside the arena, so it is lowered a metre. The island's northern terrain is massive-environment terrain and does not show when streamed; the far-land copy stands in for it beyond the platform. The game pairs IslandSky_Space with this set's light level in a cutscene volume.",
+      "anchor_z_from": "measured in the game 2026-11-17: the rock's ground is 98 to 134 cm above z 0 across the middle 36 m (a capsule dropped on a grid), mostly 105 to 115",
+      "show_classes": [
+        "EndEnvironmentStaticMeshActor",
+        "BG2130_00_Ground_Standard_C",
+        "EndNiagaraActor"
+      ],
+      "seen": "2026-11-17: anchored on its real surface (z 110) Cloud moves freely. Unstretched it left the northern third of the arena as invisible floor (owner); stretched 1.8 both ways it covered the arena but reached up to 22 m past the wall. Fitted per direction (1.08 by 1.70) from its mesh file.",
+      "keep_hidden": [
+        "Quest_"
+      ],
+      "anchor_xy_from": "tools/rock_fit.py on the rock's mesh (BG2130_00): the centre of the tightest fit of its level top to the arena, (0, -75) in the mesh's own coordinates, plus the actor's place in the level (-41.25, -9021.3)",
+      "fit": {
+        "scale": [
+          1.08,
+          1.7
+        ],
+        "scale_classes": [
+          "EndEnvironmentStaticMeshActor",
+          "BG2130_00_Ground_Standard_C",
+          "CollisionAssetActor"
+        ],
+        "move_classes": [],
+        "scale_from": "tools/rock_fit.py: the smallest stretch along X and Y for which every metre of the arena's 24.75 m circle has level rock (within 48 cm of the walkable height, cracks closed) under it. Level rock then reaches 0.2 to 6 m past the wall, depending on the direction; the rock is not round, so it cannot match exactly.",
+        "keep": [
+          {
+            "name": "Terrain_FarLand",
+            "lower_cm": 100
+          }
+        ]
+      }
+    },
+    {
+      "id": "mythril_golem",
+      "name": "Mythril Mine",
+      "boss": "Mythril Golem",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "1230-MYTHM",
+      "territory": "MYTHM_MythrilGolem",
+      "anchor": [
+        8320.0,
+        114280.0,
+        2070.0
+      ],
+      "anchor_z_from": "the territory actor's own height; the ground under the arena read in the game on 2026-11-17 is within 0.3 m of it",
+      "radius_m": 15.0,
+      "radius_from": "ground read in the game 2026-11-17: flat floor walled in about 15 m from the centre",
+      "unlock": {
+        "progress": 4000
+      },
+      "unlock_from": "chapter progress after the boss's chapter (an approximation)",
+      "levels": [
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_04Mine_Light",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_04Mine_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_05Mine_Light",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_05Mine_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_05Mine_TimeSet_Day",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_06Golem_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_07Bottom_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_09JUNOACave_Light",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_09JUNOACave_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_19JUNOACaveGrass_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_34MineNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_35MineNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_39JUNOACaveNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_64MineInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_65MineInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_66GolemInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_67BottomInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_69JUNOACaveInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_Effect",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_Emissive",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_04Mine_Gimmick",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_05Mine_Gimmick",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_07Bottom_Gimmick",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_Gimmick",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_Physics",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_Light",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_04Mine_TimeSet_Day",
+        "/Game/Level/Game/Field/1230-MYTHM/Layout/1230-MYTHM_09JUNOACave_TimeSet_Day"
+      ],
+      "sky_level": "/Game/Level/Game/Field/0001-WORLD/Layout/Lighting/Mount/0001-WORLD_MountSky_Cave",
+      "levels_mb": 431,
+      "experimental": false,
+      "levels_note": "2026-11-17: the Water level and the AutoGenCollision grid levels (05Mine/07Bottom/08Tunnel Terrain_Grid, GridPhys_1000005) are not in the Epic 1.005 build (load refused at both paths); the arena's floor and walls collide without them. 2026-11-18: the characters were almost silhouettes (owner, with a screenshot of the fight). The mine's streaming volumes (1230-MYTHM.umap) load the area's own 1230-MYTHM_Light with every part's light and time-set level; with it, 04Mine_TimeSet_Day, 09JUNOACave_TimeSet_Day and the mountain cave sky (MountSky_Cave) the cave is lit blue-green on every side and the party is lit (upd-09.png); 45 lights shown against 17.",
+      "indoors": true,
+      "show_classes": [
+        "EndEnvironmentStaticMeshActor",
+        "PointLight",
+        "SpotLight",
+        "EndNiagaraActor",
+        "MassiveEnvironmentActor"
+      ],
+      "own_ground": true
+    },
+    {
+      "id": "grasptropod",
+      "name": "Costa del Sol",
+      "boss": "Grasptropod",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "2110-COSTT",
+      "territory": "COSTT_CatchMech",
+      "anchor": [
+        219739.563,
+        -127985.0,
+        120.0
+      ],
+      "anchor_z_from": "the territory actor's own height: the ground under it is not read yet",
+      "radius_m": 36.5,
+      "radius_from": "half the territory's 73 m cube wall",
+      "unlock": {
+        "progress": 7000
+      },
+      "unlock_from": "chapter progress after the boss's chapter (an approximation)",
+      "levels": [
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_11Grass_Terrain_Strip",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_21Tree_Terrain_Strip",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_31NatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_61Interior_Terrain_Strip",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_Effect",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_Emissive",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_Light",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_Terrain_Strip",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_TimeSet_Day",
+        "/Game/Level/Game/Field/2110-COSTT/Layout/2110-COSTT_Water_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 448,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "anuran_suppressor",
+      "name": "Corel Desert",
+      "boss": "Anuran Suppressor",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "2360-UNDRS",
+      "territory": "UNDRS_PalmerMech",
+      "anchor": [
+        3290.0,
+        37910.0,
+        3490.0
+      ],
+      "anchor_z_from": "the territory actor's own height: the ground under it is not read yet",
+      "radius_m": 14.5,
+      "radius_from": "half the territory's 29 m wall",
+      "unlock": {
+        "progress": 9000
+      },
+      "unlock_from": "chapter progress after the boss's chapter (an approximation)",
+      "levels": [
+        "/Game/Level/Game/Field/2360-UNDRS/Layout/2360-UNDRS_35DyneNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/2360-UNDRS/Layout/2360-UNDRS_65DyneInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/2360-UNDRS/Layout/2360-UNDRS_Dyne_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 131,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "gi_nattak",
+      "name": "Cave of the Gi",
+      "boss": "Gi Nattak",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "2550-GIZOK",
+      "territory": "GIZOK_GiNattak",
+      "anchor": [
+        -157410.0,
+        52390.0,
+        -47625.0
+      ],
+      "anchor_z_from": "the territory actor's height, lowered 15 cm: the arena's own floor read in the game on 2026-11-17 sits about 15 cm below the simulator's",
+      "radius_m": 18.0,
+      "radius_from": "ground read in the game 2026-11-17: a bowl flat to within about 0.4 m for 18 m from the centre, rising about 1 m beyond",
+      "unlock": {
+        "progress": 11000
+      },
+      "unlock_from": "chapter progress after the boss's chapter (an approximation)",
+      "levels": [
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_31DungeonNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_31EscAreaNatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_31SetAreaNatureMini_Terrain",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_61DungeonInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_61EscAreaInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_61SetAreaInterior_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_Dungeon_Emissive",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_Dungeon_Light",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_Dungeon_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_Effect",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_EscArea_Effect",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_EscArea_Light",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_EscArea_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_EscArea_TimeSet_Day",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_SetArea_Effect",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_SetArea_Light",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_SetArea_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_TimeSet_Day",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_Dungeon_Gimmick",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_Gimmick",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_Physics",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3006005",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3007003",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3007004",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3007005",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3008002",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3008003",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3008004",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3008005",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3009003",
+        "/Game/Level/Game/Field/2550-GIZOK/GridPhys/2550-GIZOK_GridPhys_3009004",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3006004",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3006005",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3007003",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3007004",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3007005",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3008002",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3008003",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3008004",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3008005",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3009002",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3009003",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_Dungeon_Terrain_Grid_3009004",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_EscArea_Terrain_Grid_3006001",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_EscArea_Terrain_Grid_3006002",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_SetArea_Terrain_Grid_3008002",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_SetArea_Terrain_Grid_3008003",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_SetArea_Terrain_Grid_3009002",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/AutoGenCollision/2550-GIZOK_SetArea_Terrain_Grid_3009003",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_SetArea_TimeSet_Day",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_SeaArea_Effect",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_SeaArea_Emissive",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_SeaArea_Light",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_SeaArea_Terrain_Strip",
+        "/Game/Level/Game/Field/2550-GIZOK/Layout/2550-GIZOK_31SeaAreaNatureMini_Terrain_Strip"
+      ],
+      "sky_level": "/Game/Level/Game/Field/0001-WORLD/Layout/Lighting/Mount/0001-WORLD_MountSky_Cave",
+      "levels_mb": 271,
+      "experimental": false,
+      "indoors": true,
+      "show_classes": [
+        "EndEnvironmentStaticMeshActor",
+        "PointLight",
+        "SpotLight",
+        "EndNiagaraActor",
+        "MassiveEnvironmentActor"
+      ],
+      "levels_note": "2026-11-17: the Water level is not in the Epic 1.005 build (load refused). The floor collision is in the cave's AutoGenCollision grid levels; all 28 (all but the SeaArea's two) are loaded, since the level reader cannot yet read the Epic build's grid levels to choose cells. 2026-11-18: following the cave's streaming volumes (2550-GIZOK.umap) added its SeaArea set and SetArea_TimeSet_Day; eleven levels that hold nothing in Epic 1.005 (Light, Terrain and the empty Emissive/Gimmick/Physics ones) are left out, to load faster. Lit by the mountain cave sky (MountSky_Cave): its arches, braziers and haze on every side; Cosmo Canyon's sunset sky blew it out white.",
+      "own_ground": true
+    },
+    {
+      "id": "galian_beast",
+      "name": "Shinra Manor",
+      "boss": "Galian Beast",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "2650-NIBLS",
+      "territory": "NIBLS_VincentValentine",
+      "anchor": [
+        -28630.0,
+        -231660.0,
+        2680.0
+      ],
+      "anchor_z_from": "the territory actor's own height: the ground under it is not read yet",
+      "radius_m": 13.0,
+      "radius_from": "half the territory's 26 m wall",
+      "unlock": {
+        "progress": 12000
+      },
+      "unlock_from": "chapter progress after the boss's chapter (an approximation)",
+      "levels": [
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Additional_Terrain_Strip",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Effect",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Emissive",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Entrance_Emissive",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Entrance_Light",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Light",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_LostN_Terrain_Strip",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Terrain_Strip",
+        "/Game/Level/Game/Field/2650-NIBLS/GridPhys/2650-NIBLS_GridPhys_4001008",
+        "/Game/Level/Game/Field/2650-NIBLS/GridPhys/2650-NIBLS_GridPhys_4001009",
+        "/Game/Level/Game/Field/2650-NIBLS/GridPhys/2650-NIBLS_GridPhys_4002008",
+        "/Game/Level/Game/Field/2650-NIBLS/GridPhys/2650-NIBLS_GridPhys_4002009",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Gimmick",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_LostN_Gimmick",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_LostN_Physics",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Physics",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/AutoGenCollision/2650-NIBLS_Terrain_Grid_2000015",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/AutoGenCollision/2650-NIBLS_Terrain_Grid_4001013",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/AutoGenCollision/2650-NIBLS_Terrain_Grid_4001014",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/AutoGenCollision/2650-NIBLS_Terrain_Grid_4001015",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/AutoGenCollision/2650-NIBLS_Terrain_Grid_4002012",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/AutoGenCollision/2650-NIBLS_Terrain_Grid_4002013",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/AutoGenCollision/2650-NIBLS_Terrain_Grid_4003013",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_LostN_Emissive",
+        "/Game/Level/Game/Field/2650-NIBLS/Layout/2650-NIBLS_Entrance_Terrain"
+      ],
+      "sky_level": "/Game/Level/Game/Field/0001-WORLD/Layout/Lighting/Mount/0001-WORLD_MountSky_Night",
+      "levels_mb": 247,
+      "experimental": false,
+      "show_classes": [
+        "EndEnvironmentStaticMeshActor",
+        "PointLight",
+        "SpotLight",
+        "EndNiagaraActor",
+        "MassiveEnvironmentActor",
+        "BG0307_00_FloorDoor_Standard_C"
+      ],
+      "seen": "2026-11-17: streamed by hand. With only its terrain, light and effect levels: lit, but no props, walls not solid. Adding its Gimmick, Physics (and LostN_) levels and its collision grids (Terrain_Grid_*, GridPhys_*) brought the crates, barriers, railings and grass, a solid floor at the simulator's height (measured 0 cm at the centre) and walls about 12 m out that block movement. Its sunken pits have no floor collision, so the simulator's flat floor carries characters across them. 2026-11-17 (later): the big square pit in the middle of the room is closed in the boss fight by the floor door BG0307_00_FloorDoor_Standard in the Gimmick level, which arrives hidden; shown, it fills the pit flush (179/180-galian-door-*.png). The simulator's own floor carries characters across it. 2026-11-18: its walls and sides were dark until Nibelheim's night sky (MountSky_Night) was loaded with it: an indoor room is still lit by its region's sky (its sun, fog and reflection capture).",
+      "indoors": true,
+      "own_ground": true
+    },
+    {
+      "id": "gilgamesh",
+      "name": "Gilgamesh's Island",
+      "boss": "Gilgamesh",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "0110-GILGA",
+      "territory": "GILGA_Gilgamesh_Boss",
+      "anchor": [
+        415437.031,
+        122683.0,
+        4220.0
+      ],
+      "anchor_z_from": "the territory actor's own height: the ground under it is not read yet",
+      "radius_m": 21.8,
+      "radius_from": "half the territory's 43.7 m cube wall",
+      "unlock": {
+        "flag": "stfWorldReport_Finish_GILGA_004"
+      },
+      "unlock_from": "stand-in flag: the flag for beating Gilgamesh is not identified yet",
+      "levels": [
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_11Grass_Terrain_Strip",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_21Tree_Terrain_Strip",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_31NatureMini_Terrain_Strip",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_61Interior_Terrain_Strip",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_71Inside_Terrain_Strip",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_Effect",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_Light",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_Terrain_GrassOffs",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_Terrain_Strip",
+        "/Game/Level/Game/Field/0110-GILGA/Layout/0110-GILGA_Water_Terrain_Strip"
+      ],
+      "sky_level": null,
+      "levels_mb": 421,
+      "experimental": true,
+      "experimental_why": "2026-11-17: streamed, Nibel's levels loaded but no terrain appeared (its ground is massive-environment terrain), and its sky has 192 local fog volumes. Not offered until that is solved."
+    },
+    {
+      "id": "gilgamesh_garden",
+      "name": "Gilgamesh's Garden",
+      "boss": "Gilgamesh's legendary trials (Titan, Odin, Phoenix and the others)",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "0000-COMON",
+      "radius_m": 30.0,
+      "radius_from": "the game's own second look for the simulator's space: the same 24.4 m arena, centred on the same point",
+      "anchor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "anchor_z_from": "the same origin as the simulator; measured 2026-11-17: the garden's surface is the simulator's floor",
+      "unlock": {
+        "flag": "stfArea0001_Gilga_StoryHub_Clear"
+      },
+      "unlock_from": "Gilgamesh's island story hub cleared (StoryFlag 2923). Chosen as 'Gilgamesh's quests complete'; only checked true on a finished save",
+      "levels": [
+        "/Game/Level/Game/Field/0000-COMON/VR/Layout/0000-COMON_VR_Gilgamesh_Terrain_Strip",
+        "/Game/Level/Game/Field/0000-COMON/VR/Layout/0000-COMON_VR_Gilgamesh_Light",
+        "/Game/Level/Game/Field/0000-COMON/VR/Layout/0000-COMON_VR_Gilgamesh_Effect"
+      ],
+      "sky_level": null,
+      "show_classes": [
+        "EndEnvironmentStaticMeshActor",
+        "PointLight",
+        "EndNiagaraActor",
+        "MassiveEnvironmentActor"
+      ],
+      "note": "The game ships this as a second look for the simulator's own level (0000-COMON_VR_Gilgamesh_*), used by Gilgamesh's legendary-summon trials (territories entr_0000COMON_GilQuest_010 to 030). It sits on the simulator's centre, so it needs no offset or fit. Its own floor collision is in separate AutoGenCollision grid levels, which are not loaded: the simulator's floor is at the same height. It keeps the simulator's sky (without it the scene is black). Its 70 meshes (69 hidden), 62 point lights, 8 effects and its massive-environment backdrop all arrive hidden. The Sound level is left out.",
+      "seen": "2026-11-17: streamed into a Training Dummy fight by hand: the raked-sand garden with lanterns and stones, lit, the party standing on it; the playable radius stays 24.4 m."
+    },
+    {
+      "id": "midgar_outskirts",
+      "name": "Midgar Outskirts",
+      "boss": "Shinra soldiers (Zack, in the prologue)",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "4000-MIDGR",
+      "territory": "4000MIDGR_mob_01",
+      "anchor": [
+        -470.0,
+        68340.0,
+        60.0
+      ],
+      "anchor_z_from": "the territory actor's height (4000-MIDGR_Btl_Navigation_Mod); live 2026-11-19, the capsule probe found ground within 60 cm of it across the arena",
+      "radius_m": 25.0,
+      "radius_from": "the territory's escape wall, 49.99 m across: about the simulator's own 24.4 m arena",
+      "unlock": {
+        "progress": 1000
+      },
+      "unlock_from": "Zack's prologue fight: offered from the start",
+      "sky_level": "/Game/Level/Game/Field/0001-WORLD/Layout/Lighting/Zax/0001-WORLD_ZaxSky_Day",
+      "sky_from": "CutSceneList (4000-MIDGR): Zack's prologue scenes EV_MIDGR_0020 to 0030 name MIDGR_Sky / ZaxSky_Day (0048 and 0050 the rain version); the area's sky switch has it",
+      "own_ground": true,
+      "show_classes": [
+        "EndEnvironmentStaticMeshActor",
+        "PointLight",
+        "SpotLight",
+        "EndNiagaraActor",
+        "MassiveEnvironmentActor"
+      ],
+      "levels": [
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/4000-MIDGR_020_5thOutWall_Terrain_Strip",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/4000-MIDGR_020_5thOutWall_Light",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/4000-MIDGR_020_5thOutWall_Effect",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/4000-MIDGR_020_5thOutWall_Emissive",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/4000-MIDGR_020_5thOutWall_Gimmick",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/4000-MIDGR_020_5thOutWall_Physics",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/4000-MIDGR_TimeSet_Day",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/AutoGenCollision/4000-MIDGR_020_5thOutWall_Terrain_Grid_1000003",
+        "/Game/Level/Game/Field/4000-MIDGR/GridPhys/4000-MIDGR_GridPhys_1000003",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/AutoGenCollision/4000-MIDGR_020_5thOutWall_Terrain_Grid_1000002",
+        "/Game/Level/Game/Field/4000-MIDGR/GridPhys/4000-MIDGR_GridPhys_1000002",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/AutoGenCollision/4000-MIDGR_020_5thOutWall_Terrain_Grid_3001002",
+        "/Game/Level/Game/Field/4000-MIDGR/GridPhys/4000-MIDGR_GridPhys_3001002",
+        "/Game/Level/Game/Field/4000-MIDGR/Layout/AutoGenCollision/4000-MIDGR_020_5thOutWall_Terrain_Grid_3001003",
+        "/Game/Level/Game/Field/4000-MIDGR/GridPhys/4000-MIDGR_GridPhys_3001003"
+      ],
+      "levels_note": "From the owner's reference shot of Zack's prologue fight. Territories 4000MIDGR_mob_01 and _02 share this centre. Levels: the 020_5thOutWall set that the area's EndStreamingVolume_5thOutWall loads here (terrain, light, effects, glow, the gate, physics), the day time set, and the outer wall's four collision cells with their physics cells (with one cell the ground ended about 6 m east of the centre). Live 2026-11-19: rocky ground, fences, the Sector 5 wall, the plate, the reactor and fires; 517 actors shown, 31 lights. The three downed helicopters (VE0015_00_FallenHeli_Standard) are placed by the story script and their model is not in memory here, so they are not included (owner: not needed)."
+    },
+    {
+      "id": "red_dragon",
+      "name": "Temple of the Ancients",
+      "boss": "Red Dragon (second phase)",
+      "kind": "streamed",
+      "enabled": true,
+      "region": "3110-TEMPL",
+      "territory": "TEMPL_RedDragon",
+      "anchor": [
+        -33296.0,
+        -73165.0,
+        -15479.0
+      ],
+      "anchor_xy_from": "the territory's centre (-33380, -72720) moved 0.8 m east and 4.5 m south: live 2026-11-20 the walls are 24.2 m (north, south) and 24.7 m (east, west) away from here, symmetric",
+      "anchor_z_from": "the second-phase hall's floor: live 2026-11-20 the capsule probe found it flat at -15479 over 48 m by 48 m, with a 1.6 m ledge round the edge",
+      "radius_m": 24.0,
+      "radius_from": "live 2026-11-20: from the anchor the nearest wall is 24.15 m away (24 directions, capsule 60 cm up)",
+      "unlock": {
+        "progress": 13190
+      },
+      "unlock_from": "the fight's scenes (EV_FOREE_8010 to 8090) are at Chapt_0013_180; 13190 is where the game stops streaming the next room (RedRoomB's DeactivateProgress), after the fight",
+      "sky_level": "/Game/Level/Game/Field/0001-WORLD/Layout/Lighting/Island/0001-WORLD_IslandSky_DayMaze",
+      "sky_from": "CutSceneList (8800-FOREE): the maze scenes EV_FOREE_1020 and 1030 (1030 streams MazeRoomA_Boss) name Sky_Island / IslandSky_DayMaze; the fight's own scenes 8020 and 8090 set the TimeSet_Maze switch",
+      "own_ground": true,
+      "light_environment": "Maze_DoorA_1",
+      "light_environment_from": "live 2026-11-20 (owner: the characters were too dark): the hall has no lamps of its own (RedRoomA_Light's are all round the first-phase hall, 97 m up), so characters take their light from a light environment. With the simulator's own (0000-COMON_VR_Light) still on they were near-black; of TimeSet_Maze's two (DoorA_1, DoorA_2, switched by its accessor), DoorA_1 alone lit and shaded them, DoorA_2 alone was darker, and PLEA_MazeRoomA or TimeSet_Maze_2th's alone washed the picture out",
+      "move_brightness_probes": true,
+      "show_classes": [
+        "EndEnvironmentStaticMeshActor",
+        "PointLight",
+        "SpotLight",
+        "EndNiagaraActor",
+        "MassiveEnvironmentActor"
+      ],
+      "levels": [
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_026_RedRoomB_Terrain_Strip",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_026_RedRoomBTree_Terrain_Strip",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_016_RedRoomBGrass_Terrain_Strip",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_026_RedRoomB_Gimmick",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_026_RedRoomB_Emissive",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_026_RedRoomB_Effect",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_026_RedRoomB_Physics",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/AutoGenCollision/3110-TEMPL_026_RedRoomB_Terrain_Grid_4002004",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_025_RedRoomA_Light",
+        "/Game/Level/Game/Field/3110-TEMPL/Layout/3110-TEMPL_TimeSet_Maze"
+      ],
+      "levels_note": "Issue 3; owner 2026-11-20: the fight's second phase, where gravity reverses and the party fights on the ceiling. The game does that by moving the fight to a second, upside-down copy of the hall, RedRoomB, 97 m below the first (its pieces are rolled 180 degrees), which the fight's physics volume (MazeRoomA_Boss_Physics) loads with the first. Levels: RedRoomB's terrain, tree, grass, gimmick, emissive, effects and physics, its collision cell (4002004), RedRoomA's light level (its lights reach down to -15866, covering both halls) and the maze's time set. The first-phase hall (RedRoomA) was tried first: its massive-environment terrain drew the floor, the colonnade and the ceiling but not the tall patterned walls on two sides, whatever was loaded beside it or set in the renderer. RedRoomB draws in full. The stone pillars of the first phase are enemies and are not included.",
+      "render_settings": {
+        "r.MassiveEnvironment.UseShadowHZBControlPoints": 0,
+        "r.MassiveEnvironment.UseShadowHZBMeshlets": 0,
+        "r.MassiveEnvironment.UseShadowHZBWithCameraDepthReprojection": 0,
+        "r.MassiveEnvironment.ShadowFixedLOD": 0
+      },
+      "render_settings_from": "live 2026-11-20 (owner: the light shifted across the walls when moving): the massive-environment shadow culling, off for the visit; the party was lit more evenly and the sunlit slab steadier. Put back after the visit",
+      "lamp": {
+        "actor": "SpotLight_1",
+        "offset": [
+          3200.0,
+          0.0,
+          3000.0
+        ],
+        "pitch": -40.0,
+        "yaw": 180.0,
+        "intensity": 560000.0,
+        "outer_cone": 35.0,
+        "inner_cone": 24.5,
+        "radius": 12000.0,
+        "shadows": true,
+        "color": [
+          0.62,
+          0.8,
+          1.0
+        ]
+      },
+      "lamp_from": "live 2026-11-20 (owner: the lighting was uneven and unnatural, walls glaring white over a dark floor; then, of two looks shown, preferred this warm one, a little less orange): this hall is the first-phase hall built upside down, so its colonnade is at the top and the game's sun only reaches the upper walls. With the sun's shadows off the floor lit pale, so it takes the sun; the hall's enclosure blocks it at every angle and side tried. One of the light level's unused spotlights (all round the first-phase hall, off), moved inside the colonnade on the side the sun comes from and aimed down into the hall, lights the floor and walls warmly. 80 m out the colonnade's depth blocked it; a soft shadowless fill from above with the sun halved read flatter (`exp-look1`). Owner: a little less orange; the orange is the strong light saturating the warm stone, not the lamp (white, colour temperature off), so a cool tint at full strength (0.62, 0.8, 1.0) turned it golden; 60 percent strength stayed red and only darkened (exp-tint1 to 4)"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# Simulator Upgrade: Custom Training. Lines are `ct_<name> = <value>`. The menu (F7, or LB+RB in a fight) writes the
+# fight's settings here, so the next visit starts where the last one ended.
+
+# The opponent the course starts with: a template id from the menu's list; empty: the list's first.
+ct_opponent =
+
+# How many of it, 1 to 3.
+ct_count = 1
+
+# What is fought: opponents (the opponent and count above, or a group) or round (a pre-built round of a course).
+ct_mode = opponents
+
+# A mixed group: 1 to 3 opponent ids, one per enemy, separated by commas; empty: the opponent above, count times.
+ct_group = 
+
+# The round for round mode: a round id from the menu's list; empty: none chosen.
+ct_round = 
+
+# How the enemies behave: passive (held, refilled: try things out), aggressive (real conditions: they fight and can be
+# killed, the party gets no HP or MP back), or healing (held; the party is held at 1% HP to practise healing).
+ct_behaviour = passive
+
+# The game's difficulty during the course: easy, normal, dynamic or hard (it is put back afterwards).
+ct_difficulty = normal
+
+# The keyboard key that opens Custom Training's menu in a fight (the pad: LB+RB together).
+ct_menu_key = F7
+
+# The keyboard key that brings back the last chosen fight, at full HP (also Respawn in the menu).
+ct_respawn_key = F4
+
+# on: a cleared wave comes back by itself; off: the fight waits for Respawn (or another choice).
+ct_auto_respawn = off
+
+# Passive and Healing give MP back as it is spent; off: they don't. Aggressive never does.
+ct_unlimited_mp = on

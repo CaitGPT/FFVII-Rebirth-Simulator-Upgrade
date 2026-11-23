@@ -1,0 +1,37 @@
+{
+  "note": "Simulator courses added by other mods, which data/courses.json (built from the game's tables) cannot know. Each is recognised by its title id or by the title the other mod puts on screen. needs_m is the room its enemies use, as in courses.json.",
+  "courses": [
+    {
+      "key": "COL99_TrainingDummy_DPS",
+      "title_id": "$menu_Colosseum_CourseTitle_COL99_TrainingDummy_DPS",
+      "title": "Training Dummy: DPS",
+      "needs_m": 12.0,
+      "excluded": false,
+      "from": "Training Dummy"
+    },
+    {
+      "key": "COL99_TrainingDummy_Tank",
+      "title_id": "$menu_Colosseum_CourseTitle_COL99_TrainingDummy_Tank",
+      "title": "Training Dummy: Tank",
+      "needs_m": 12.0,
+      "excluded": false,
+      "from": "Training Dummy"
+    },
+    {
+      "key": "COL99_TrainingDummy_Heal",
+      "title_id": "$menu_Colosseum_CourseTitle_COL99_TrainingDummy_Heal",
+      "title": "Training Dummy: Healing",
+      "needs_m": 12.0,
+      "excluded": false,
+      "from": "Training Dummy"
+    },
+    {
+      "key": "COL99_SimOverhaul_CT_Custom_vr",
+      "title_id": "$menu_Colosseum_CourseTitle_COL99_SimOverhaul_CT_Custom_vr",
+      "title": "Custom Training",
+      "needs_m": 0.0,
+      "excluded": false,
+      "from": "Simulator Upgrade (Custom Training): every stage is offered; Custom Training itself refuses opponents and rounds too big for the stage (owner, 2026-11-21)"
+    }
+  ]
+}

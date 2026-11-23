@@ -1,0 +1,23 @@
+2026-11-20T20:02:34Z	started: enabled=on members=both courses=$menu_Colosseum_CourseTitle_COL99_SimOverhaul_CT_Custom|Custom Training|$menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5|$menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T6
+2026-11-20T20:05:12Z	course on show: $menu_Colosseum_CourseTitle_COL30_SUMMON_Titan
+2026-11-20T20:05:12Z	course on show: Training Dummy: DPS
+2026-11-20T20:05:19Z	course on show: $menu_Colosseum_CourseTitle_COL99_TrainingDummy_Tank
+2026-11-20T20:05:19Z	course on show: Training Dummy: Tank
+2026-11-20T20:05:20Z	course on show: Training Dummy: Healing
+2026-11-20T20:05:22Z	course on show: $menu_Colosseum_CourseTitle_COL1Z_TutorialBtl_01
+2026-11-20T20:05:24Z	course on show: $menu_Colosseum_CourseTitle_COL30_EXTRA_15
+2026-11-20T20:05:26Z	course on show: $menu_Colosseum_CourseTitle_COL30_EXTRA_14
+2026-11-20T20:05:28Z	course on show: $menu_Colosseum_CourseTitle_COL1S_TutorialBtl_01
+2026-11-20T20:05:30Z	course on show: $menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5
+2026-11-20T20:05:30Z	highlight: member 7 status 0 -> 5 (read back 5)
+2026-11-20T20:05:30Z	highlight: member 8 status 0 -> 5 (read back 5)
+2026-11-20T20:05:50Z	pressed: $menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5
+2026-11-20T20:06:21Z	course on show: $menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T6
+2026-11-20T20:06:24Z	pressed: $menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T6
+2026-11-20T20:06:54Z	course on show: $menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5
+2026-11-20T20:07:05Z	pressed: $menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5
+2026-11-20T20:10:06Z	course on show: $menu_Colosseum_CourseTitle_COL30_SUMMON_Titan
+2026-11-20T20:10:07Z	course on show: $menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5
+2026-11-20T20:10:07Z	highlight: member 7 status 0 -> 5 (read back 5)
+2026-11-20T20:10:07Z	highlight: member 8 status 0 -> 5 (read back 5)
+2026-11-20T20:10:34Z	pressed: $menu_Colosseum_CourseTitle_COL99_Mod_SimOverhaul_Party_T5
