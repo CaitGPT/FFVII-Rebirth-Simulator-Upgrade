@@ -61,6 +61,8 @@ Nothing is written to your save.
 | Custom Training | F4 | Respawn in the settings menu | the same fight again |
 | Custom Training | F9, F5, F6, F8 | through the settings menu | next meter, clear, reset stagger, show or hide |
 
+**Download:** [Nexus Mods](https://www.nexusmods.com/finalfantasy7rebirth/mods/2548) or [GitHub releases](https://github.com/CaitGPT/FFVII-Rebirth-Simulator-Upgrade/releases).
+
 ## Requirements
 
 - FINAL FANTASY VII REBIRTH for PC, game version **1.005**. We test on the Epic Games Store version; the release build was also checked on Steam.
